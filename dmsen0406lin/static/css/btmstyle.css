@@ -1,0 +1,257 @@
+/* 公共样式表css */
+/* 公共样式表css */
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: 0;
+}
+
+body {
+    background: #fff;
+    color: #666;
+}
+
+html, body, div, dl, dt, dd, ol, ul, li, h1, h2, h3, h4, h5, h6, p, blockquote, pre, button, fieldset, form, input, legend, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #08acee;
+}
+
+button {
+    outline: 0;
+}
+
+img {
+    border: 0;
+}
+
+button,input,optgroup,select,textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #777;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease-in;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    outline: none;
+    color: #2B2F3D;
+    text-decoration: none;
+}
+
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+}
+
+/* 必要布局样式css */
+
+.container {width: 1200px !important}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 10;
+    position: relative;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.btn-blue,
+.btn-blue-border:hover {
+    color: #FFF !important;
+    background: #3ba3ff !important;
+    border: 2px solid transparent !important;
+}
+.btn-blue:hover,
+.btn-blue-border {
+    color: #7ac1ff !important;
+    background-color: transparent !important;
+    border: 2px solid #3ba3ff !important;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+.adaction {
+    background: #1e88e5;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+}
+.adaction .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.adaction p {
+    color: #FFF;
+    font-size: 24px;
+    line-height: 46px;
+    float: left;
+}
+.adaction .btn {
+    float: right;
+}
+.foot {
+    background-color: #212121;
+}
+.foot h4 {
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.foot a {
+    color: #999;
+}
+.foot .phone .fa {
+    margin-right: 5px;
+}
+
+.foot .phone {
+    color: #999;
+    font-size: 16px;
+    font-weight: bold;
+}
+.foot .fa-phone img{
+    float:left;
+}
+.foot .btn-green {
+    margin: 5px 0;
+    padding: 5px 12px;
+    color: #EEE;
+    background-color: #339E60;
+}
+.foot .btn-green .fa {
+    margin-left: 5px;
+    color: #DDD;
+}
+.foot .links {
+    max-height: 140px;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #212121;
+}
+footer .container {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #333;
+}
+footer .copy {
+    color: #737373;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0;
+    float: left;
+}
+footer .copy span {
+    color: #777;
+    margin: 0 10px;
+}
+footer .footer-link {
+    color: #FFF;
+
+}
+.space {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.col-xs-2 {
+    width: 16.66666667%;
+    float: left;
+}
+.col-xs-6 {
+    width: 50%;
+    float: left;
+}
+ul.footer_social_links {
+    float: right;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.footer_social_links li {
+    float: left;
+    padding: 0px 10px;
+    border-left: 2px solid #404040;
+    list-style: none;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.footer_social_links li:first-child {
+    border-left: 0;
+}
+.footer_social_links a {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+    text-align: right;
+}
+.footer_social_links a:hover {
+    color: #eee;
+}

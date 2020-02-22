@@ -1,0 +1,1604 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>壁纸</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/btmstyle.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/firstweb.ico">
+
+    <link rel="stylesheet" href="/static/gerenweb/css/bootstrap.css" />
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style type="text/css">
+	#apDiv4{margin: auto;margin-top: 50px;}
+
+.test1 {
+	
+	
+	top:0; 
+	left:0; 
+	height:100%;
+	width:100%; 
+	background: #a2fffd;
+	background-position: center 0;
+    background-color:  #212121;
+	background-repeat: no-repeat; 
+	background-attachment:fixed; 
+	background-size: cover; 
+	-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */ 
+	-o-background-size: cover;/* 兼容Opera */ 
+	zoom: 1; 
+}
+
+
+.test2 {
+	
+	background-attachment: fixed;
+	background-image: url(/static/gerenweb/images/2.jpg);
+	background-repeat: repeat-x;
+	background-position:100% 100%;
+	background-size:cover}
+.test1 #buttom {
+	position: absolute;
+	right: 9px;
+	top: 14px;
+}
+
+
+.test1 table tr td #center1 {
+	position: relative;
+	height: 100px;
+	width: 100px;
+}
+#menu {
+    
+	
+    padding-left: 6px;
+    margin: 0px;
+    list-style-type: none;
+    height:150px;
+}
+#menu li {
+    float: left;
+    margin:0 4px;
+}
+#menu span {
+	float:left;
+    padding-left:18px;
+    background:url(/static/gerenweb/images/menu1.gif) left top repeat-x;    
+    transition: all .3s ease-in;
+}
+#menu li a {
+    padding-right: 18px;
+    float: left;
+    height: 35px;
+    color: #bbb;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    background:url(/static/gerenweb/images/menu1.gif) right top repeat-x;
+    transition: all .3s ease-in;
+}
+#menu a:hover {
+    color: #fff;
+    background-position:right bottom;    
+}
+.test1 table tr #tr1 {
+	position: absolute;
+	top:40px;
+	left:0px;
+	
+}
+#menu a:hover span {
+    background-position:left bottom; 
+    cursor:pointer;
+    cursor:hand;
+}
+
+#apDiv5 {
+	position: absolute;
+	width: 730px;
+	height: 380px;
+	z-index: 5;
+	left: 349px;
+	top: 256px;}
+	
+.div1{border:thick #303; size:20px;color:#FF9; margin-top:300px; margin-bottom:300px; margin-right:10px; position:fixed;}
+.div1 a{background:#3F9;text-decoration:none; }
+.div1 li{background:#3F9; font-size:30px;}
+.div1 ul{ width:200px;  }
+
+
+</style>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+	<style >
+		 .diva{position:absolute;size:20px ;color: #fffc94 ;  font-size:20px;text-align:center ; width:60px; height:30px ;text-decoration:none;background-color: gray;font-family: 华文彩云;}
+		.diva:hover{text-decoration: none;  color: #4fe7ff;}
+		.diva5{position:absolute;size:20px ;color: #fffc94 ;  font-size:20px;text-align:center ; width:60px; height:30px ;text-decoration:none;background-color: gray;font-family: 华文彩云;}
+	a:hover{cursor:pointer;}
+
+		
+		canvas {
+  //opacity: 0.5;
+}
+	</style>
+</head>
+
+<body class="test1">
+
+
+<a id="buttom" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=582501882&site=星空の下での守護&menu=yes">
+<img border="0" SRC=http://wpa.qq.com/pa?p=1:894132:13 width="100" height="30" alt="点击这里给我发消息" /></a>
+<div id="apDiv1" style="position: absolute; left: 15px; top: 704px; width: 1371px; height: 36px; z-index: 1"><EMBED src="/static/gerenweb/music/5.mp3" loop="infinite" width="0" height="0"  ></embed>
+</div>
+<div id="apDiv2" style="position: absolute; left: 17px; top: 10px; width: 218px; height: 116px; z-index: 2; vertical-align: middle"><img src="/static/gerenweb/images/66.gif" alt="网站标识" width="218" height="88" onclick="MM_popupMsg('个人网站标识')" /></div>
+<div id="apDiv3" style="position: absolute; left: 243px; top: 9px; width: 1086px; height: 206px; z-index: 3; vertical-align: middle"><ul id="menu">
+
+	<li><a href="{% url 'gerenweb:index1'%}" title="首页"><span>首页</span></a></li>
+    <li><a href="{% url 'gerenweb:index2'%}" title="个人简历"><span>个人简历</span></a></li>
+    <li><a href="{% url 'gerenweb:index3'%}" title="壁纸分享"><span>壁纸分享</span></a></li>
+    <li><a href="{% url 'gerenweb:index4'%}" title="网盘资源分享"><span>网盘资源分享</span></a></li>
+    <li><a href="{% url 'gerenweb:index5'%}" title="联系方式"><span>联系方式</span></a></li>
+
+    <li><a href="{% url 'projects' %}" title="dmsen项目网站"><span>前往个人项目网站</span></a></li>
+  <li><a href="{% url 'index' %}" title="dmsen简历网站"><span>前往个人简历网站</span></a></li>
+
+  <li><a href="{% url 'index' %}" title="dmsen博客网站"><span>前往个人博客网站</span></a></li>
+
+    
+</ul></div>
+
+
+
+
+<div class="panel-group" id="accordion" style="width:180px;margin-left: 20px;margin-top: 250px;position: fixed">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a class="DDav_a_1"   data-toggle="collapse" data-parent="#accordion" id="DDav_a_1"
+				   href="#collapseOne">
+					四季
+				</a>
+			</h4>
+		</div>
+		<div id="collapseOne" class="panel-collapse collapse ">
+			<div class="panel-body">
+				<ul><li><a class="div2a_1">春</a></li>
+                    <li><a class="div2a_2">夏</a></li>
+                    <li><a class="div2a_3">秋</a></li>
+					<li><a class="div2a_4">冬</a></li>
+                </ul>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a class="DDav_a_1"data-toggle="collapse" data-parent="#accordion" id="DDav_a_2"
+				   href="#collapseTwo">
+					风景
+				</a>
+			</h4>
+		</div>
+		<div id="collapseTwo" class="panel-collapse collapse">
+			<div class="panel-body">
+				<ul>
+					<li><a class="div2a_1">云</a></li>
+                    <li><a class="div2a_2">山</a></li>
+                    <li><a class="div2a_3">海</a></li>
+					<li><a class="div2a_4">花</a></li>
+					<li><a class="div2a_5">草</a></li>
+					<li><a class="div2a_6">木</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a class="DDav_a_1" data-toggle="collapse" data-parent="#accordion" id="DDav_a_3"
+				   href="#collapseThree">
+					动物
+				</a>
+			</h4>
+		</div>
+		<div id="collapseThree" class="panel-collapse collapse">
+			<div class="panel-body">
+				<ul>
+					<li><a class="div2a_1">狼</a></li>
+                    <li><a class="div2a_2">猫</a></li>
+                    <li><a class="div2a_3">狮</a></li>
+					<li><a class="div2a_4">虎</a></li>
+					<li><a class="div2a_5">狗</a></li>
+					<li><a class="div2a_6">兔</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h4 class="panel-title">
+				<a class="DDav_a_1" data-toggle="collapse" data-parent="#accordion" id="DDav_a_4"
+				   href="#collapseFour">
+					其他
+				</a>
+			</h4>
+		</div>
+		<div id="collapseFour" class="panel-collapse collapse">
+			<div class="panel-body">
+				<ul>
+					<li><a class="div2a_1">动漫</a></li>
+                    <li><a class="div2a_2">盒子</a></li>
+                    <li><a class="div2a_3">简约</a></li>
+					<li><a class="div2a_4">魔幻</a></li>
+					<li><a class="div2a_5">男</a></li>
+					<li><a class="div2a_6">晨</a></li>
+
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+
+
+
+        	$(".Div_12").hide()
+            $(".Div_11").hide()
+            $(".Div_13").hide()
+			$(".Div_14").hide()
+			$(".Div_15").hide()
+			$(".Div_16").hide()
+
+
+
+
+
+
+        $(".div2a_1").click(function () {
+            $(".Div_12").hide()
+            $(".Div_11").show()
+            $(".Div_13").hide()
+			$(".Div_14").hide()
+			 $(".Div_15").hide()
+			 $(".Div_16").hide()
+
+
+        })
+        $(".div2a_2").click(function () {
+            $(".Div_11").hide()
+            $(".Div_12").show()
+            $(".Div_13").hide()
+			$(".Div_14").hide()
+			 $(".Div_15").hide()
+			 $(".Div_16").hide()
+
+
+        })
+        $(".div2a_3").click(function () {
+            $(".Div_11").hide()
+            $(".Div_12").hide()
+            $(".Div_13").show()
+			$(".Div_14").hide()
+			 $(".Div_15").hide()
+			 $(".Div_16").hide()
+
+        })
+		   $(".div2a_4").click(function () {
+            $(".Div_11").hide()
+            $(".Div_12").hide()
+            $(".Div_13").hide()
+			$(".Div_14").show()
+			   $(".Div_15").hide()
+			 $(".Div_16").hide()
+
+
+
+        })
+
+		 $(".div2a_5").click(function () {
+            $(".Div_11").hide()
+            $(".Div_12").hide()
+            $(".Div_13").hide()
+			 $(".Div_14").hide()
+			$(".Div_15").show()
+			 $(".Div_16").hide()
+
+
+
+        })
+
+		 $(".div2a_6").click(function () {
+            $(".Div_11").hide()
+            $(".Div_12").hide()
+            $(".Div_13").hide()
+			$(".Div_14").hide()
+			 $(".Div_15").hide()
+			 $(".Div_16").show()
+
+
+
+        })
+
+
+
+
+
+
+
+
+
+
+
+
+
+         $("#DDav_a_1").click(function () {
+            $("#DDav_1").show()
+			 $("#DDav_2").hide()
+			  $("#DDav_3").hide()
+			 $("#DDav_4").hide()
+
+
+        })
+
+
+          $("#DDav_a_2").click(function () {
+            $("#DDav_1").hide()
+			  $("#DDav_2").show()
+			  $("#DDav_3").hide()
+			 $("#DDav_4").hide()
+
+
+        })
+
+
+		  $("#DDav_a_3").click(function () {
+            $("#DDav_1").hide()
+			 $("#DDav_2").hide()
+			  $("#DDav_3").show()
+			 $("#DDav_4").hide()
+
+
+        })
+
+		  $("#DDav_a_4").click(function () {
+            $("#DDav_1").hide()
+			 $("#DDav_2").hide()
+			  $("#DDav_3").hide()
+			 $("#DDav_4").show()
+
+
+        })
+
+
+
+
+    })
+</script>
+
+
+
+
+
+
+
+<div class="DDav_1" id="DDav_1" >
+
+    <div class="Div_11" style=" ">
+
+
+
+<div class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background:url(/static/gerenweb/images/siji/sping/spring1.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;" download>
+
+    </div>
+		<a class="diva "href="/static/gerenweb/images/siji/sping/spring1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+
+<div  class="div_2"style="
+z-index:0; margin-top:200px; margin-left:650px;    background:url(/static/gerenweb/images/siji/sping/spring2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/sping/spring2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/siji/sping/spring3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva "href="/static/gerenweb/images/siji/sping/spring3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+		<div  class="div_4"style="
+z-index:0; margin-top:450px; margin-left:300px;background:url(/static/gerenweb/images/siji/sping/spring4.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva "href="/static/gerenweb/images/siji/sping/spring4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+		<div  class="div_5"style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/siji/sping/spring5.png) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva5 "href="/static/gerenweb/images/siji/sping/spring5.png" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+		<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/siji/sping/spring6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva "href="/static/gerenweb/images/siji/sping/spring6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+</div>
+
+
+    <div  class="Div_12" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/siji/summer/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div>  <a class="diva "href="/static/gerenweb/images/siji/summer/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div  class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/siji/summer/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/summer/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/siji/summer/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/summer/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/siji/summer/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/siji/summer/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/siji/summer/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva5 "href="/static/gerenweb/images/siji/summer/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/siji/summer/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+		<a class="diva "href="/static/gerenweb/images/siji/summer/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >6</a>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="Div_13" style=" ">
+
+		<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/siji/autum/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div> <a class="diva "href="/static/gerenweb/images/siji/autum/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 " download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/siji/autum/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/static/gerenweb/images/siji/autum/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/siji/autum/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/autum/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/siji/autum/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/siji/autum/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/siji/autum/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/siji/autum/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/siji/autum/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/autum/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+
+</div>
+
+
+	<div   class="Div_14" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/siji/winter/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/siji/winter/1.jpg"style="margin-left: 420px;margin-top: 390px;z-index: 100 " download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/siji/winter/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/winter/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/siji/winter/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/winter/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/siji/winter/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/siji/winter/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/siji/winter/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/siji/winter/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/siji/winter/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/siji/winter/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+</div>
+
+
+	<div class="Div_15"></div>
+	<div class="Div_16"></div>
+
+
+</div>
+
+
+
+<div class="DDav_2" id="DDav_2" >
+
+    <div class="Div_11" style=" ">
+
+
+
+<div class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background:url(/static/gerenweb/images/fengjing/cloud/1.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div> <a class="diva "href="/static/gerenweb/images/fengjing/cloud/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 " download >图片1</a>
+
+
+<div  class="div_2"style="
+z-index:0; margin-top:200px; margin-left:650px;    background:url(/static/gerenweb/images/fengjing/cloud/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/cloud/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 "  download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/cloud/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/cloud/3.jpg"style="margin-left: 1120px;margin-top: 390px;z-index: 100 "  download >图片3</a>
+
+
+		<div  class="div_4"style="
+z-index:0; margin-top:450px; margin-left:300px;background:url(/static/gerenweb/images/fengjing/cloud/4.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/cloud/4.jpg"style="margin-left: 420px;margin-top: 640px;z-index: 100 "  download >图片4</a>
+
+		<div  class="div_5"style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/cloud/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/fengjing/cloud/5.jpg"style="margin-left: 770px;margin-top: 640px;z-index: 100 "  download >图片5</a>
+
+
+		<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/cloud/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/cloud/6.jpg"style="margin-left: 1120px;margin-top: 640px;z-index: 100 "  download >图片6</a>
+
+
+
+</div>
+
+
+    <div  class="Div_12" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/mountain/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/fengjing/mountain/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div  class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/mountain/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/mountain/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/mountain/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/mountain/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/mountain/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/fengjing/mountain/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/mountain/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/fengjing/mountain/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/mountain/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/mountain/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="Div_13" style=" ">
+
+		<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/sea/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/fengjing/sea/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/sea/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/sea/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/sea/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/sea/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/sea/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/fengjing/sea/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/sea/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/fengjing/sea/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/sea/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/fengjing/sea/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+</div>
+
+
+	<div  class="Div_14" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/flower/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/fengjing/flower/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/flower/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/flower/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/flower/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/flower/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/flower/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/fengjing/flower/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/fengjing/flower/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/fengjing/flower/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/flower/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/fengjing/flower/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_15" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/grass/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/fengjing/grass/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/grass/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/grass/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/grass/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/grass/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/grass/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/fengjing/grass/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/fengjing/grass/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/fengjing/grass/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/grass/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/fengjing/grass/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_16" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/tree/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/fengjing/tree/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/tree/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/tree/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/tree/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/fengjing/tree/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/tree/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/fengjing/tree/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/fengjing/tree/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/fengjing/tree/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/fengjing/tree/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/fengjing/tree/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="DDav_3" id="DDav_3" >
+
+    <div class="Div_11" style=" ">
+
+
+
+<div class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background:url(/static/gerenweb/images/animal/wolf/1.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div> <a class="diva "href="/static/gerenweb/images/animal/wolf/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 " download >图片1</a>
+
+
+<div  class="div_2"style="
+z-index:0; margin-top:200px; margin-left:650px;    background:url(/static/gerenweb/images/animal/wolf/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/wolf/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 "  download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/wolf/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/wolf/3.jpg"style="margin-left: 1120px;margin-top: 390px;z-index: 100 "  download >图片3</a>
+
+
+		<div  class="div_4"style="
+z-index:0; margin-top:450px; margin-left:300px;background:url(/static/gerenweb/images/animal/wolf/4.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/wolf/4.jpg"style="margin-left: 420px;margin-top: 640px;z-index: 100 "  download >图片4</a>
+
+		<div  class="div_5"style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/animal/wolf/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/animal/wolf/5.jpg"style="margin-left: 770px;margin-top: 640px;z-index: 100 "  download >图片5</a>
+
+
+		<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/wolf/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/wolf/6.jpg"style="margin-left: 1120px;margin-top: 640px;z-index: 100 "  download >图片6</a>
+
+
+
+</div>
+
+
+    <div  class="Div_12" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/animal/cat/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/animal/cat/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div  class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/animal/cat/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/cat/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/cat/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/cat/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/animal/cat/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/animal/cat/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/animal/cat/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/animal/cat/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/cat/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/cat/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="Div_13" style=" ">
+
+		<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/animal/lion/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/animal/lion/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/animal/lion/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/lion/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/lion/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/lion/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/animal/lion/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/animal/lion/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/animal/lion/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/animal/lion/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/lion/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/animal/lion/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+</div>
+
+
+	<div  class="Div_14" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/animal/tiger/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/animal/tiger/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/animal/tiger/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/tiger/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/tiger/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/tiger/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/animal/tiger/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/animal/tiger/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/animal/tiger/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/animal/tiger/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/tiger/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/animal/tiger/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_15" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/animal/dog/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/animal/dog/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/animal/dog/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/dog/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/dog/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/dog/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/animal/dog/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/animal/dog/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/animal/dog/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/animal/dog/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/dog/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/animal/dog/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_16" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/animal/rabbit/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/animal/rabbit/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/animal/rabbit/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/rabbit/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/animal/rabbit/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/animal/rabbit/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/animal/rabbit/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/animal/rabbit/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/animal/rabbit/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/animal/rabbit/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/animal/rabbit/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/animal/rabbit/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="DDav_4" id="DDav_4" >
+
+    <div class="Div_11" style=" ">
+
+
+
+<div class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background:url(/static/gerenweb/images/qita/dongman/1.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div> <a class="diva "href="/static/gerenweb/images/qita/dongman/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 " download >图片1</a>
+
+
+<div  class="div_2"style="
+z-index:0; margin-top:200px; margin-left:650px;    background:url(/static/gerenweb/images/qita/dongman/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/dongman/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 "  download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/dongman/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/dongman/3.jpg"style="margin-left: 1120px;margin-top: 390px;z-index: 100 "  download >图片3</a>
+
+
+		<div  class="div_4"style="
+z-index:0; margin-top:450px; margin-left:300px;background:url(/static/gerenweb/images/qita/dongman/4.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/dongman/4.jpg"style="margin-left: 420px;margin-top: 640px;z-index: 100 "  download >图片4</a>
+
+		<div  class="div_5"style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/qita/dongman/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/qita/dongman/5.jpg"style="margin-left: 770px;margin-top: 640px;z-index: 100 "  download >图片5</a>
+
+
+		<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/dongman/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/dongman/6.jpg"style="margin-left: 1120px;margin-top: 640px;z-index: 100 "  download >图片6</a>
+
+
+
+</div>
+
+
+    <div  class="Div_12" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/qita/jianyue/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/qita/jianyue/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div  class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/qita/jianyue/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/jianyue/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/jianyue/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/jianyue/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/qita/jianyue/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/qita/jianyue/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/qita/jianyue/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/qita/jianyue/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/jianyue/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/jianyue/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+
+</div>
+
+
+    <div class="Div_13" style=" ">
+
+		<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/fengjing/sea/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/qita/hezi/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/fengjing/sea/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/hezi/2.jpg" style="margin-left: 770px;margin-top: 390px;z-index: 100 "download >图片2</a>
+
+
+<div  class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/hezi/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/hezi/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/qita/hezi/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva "href="/static/gerenweb/images/qita/hezi/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+<div  class="div_5" style="
+z-index:0; margin-top:450px; margin-left:650px;background:url(/static/gerenweb/images/qita/hezi/5.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva5 "href="/static/gerenweb/images/qita/hezi/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/hezi/6.png) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/qita/hezi/6.png" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+
+
+
+
+</div>
+
+
+	<div  class="Div_14" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/qita/mohuan/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/qita/mohuan/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/qita/mohuan/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/mohuan/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/mohuan/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/mohuan/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/qita/mohuan/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/qita/mohuan/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/qita/mohuan/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/qita/mohuan/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/mohuan/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/qita/mohuan/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_15" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/qita/man/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/qita/man/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/qita/man/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/man/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/man/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/man/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/qita/man/4.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/qita/man/4.jpg" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/qita/man/5.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/qita/man/5.jpg" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/man/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/qita/man/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+	<div  class="Div_16" style=" ">
+
+<div  class="div_1" style="
+z-index:1; margin-top:200px; margin-left:300px;background: url(/static/gerenweb/images/qita/chen/1.jpg)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+   </div><a class="diva "href="/static/gerenweb/images/qita/chen/1.jpg" style="margin-left: 420px;margin-top: 390px;z-index: 100 "download >图片1</a>
+
+<div class="div_2" style="
+z-index:0; margin-top:200px; margin-left:650px;background:url(/static/gerenweb/images/qita/chen/2.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/chen/2.jpg"style="margin-left: 770px;margin-top: 390px;z-index: 100 " download >图片2</a>
+
+
+
+
+<div class="div_3"style="
+z-index:0; margin-top:200px; margin-left:1000px;background:url(/static/gerenweb/images/qita/chen/3.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div><a class="diva "href="/static/gerenweb/images/qita/chen/3.jpg" style="margin-left: 1120px;margin-top: 390px;z-index: 100 "download >图片3</a>
+
+
+
+<div  class="div_4" style="
+z-index:1; margin-top:450px; margin-left:300px;background: url(/static/gerenweb/images/qita/chen/4.png)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+  </div> <a class="diva "href="/static/gerenweb/images/qita/chen/4.png" style="margin-left: 420px;margin-top: 640px;z-index: 100 "download >图片4</a>
+
+
+<div  class="div_5" style="
+z-index:1; margin-top:450px; margin-left:650px;background: url(/static/gerenweb/images/qita/chen/5.png)  scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;float: left;">
+
+    </div><a class="diva5 "href="/static/gerenweb/images/qita/chen/5.png" style="margin-left: 770px;margin-top: 640px;z-index: 100 "download >图片5</a>
+
+
+
+
+<div  class="div_6"style="
+z-index:0; margin-top:450px; margin-left:1000px;background:url(/static/gerenweb/images/qita/chen/6.jpg) scroll  no-repeat ;  background-size:100% ;height:150px;width:300px; border:#F00  double;position:absolute;"></div>
+<a class="diva "href="/static/gerenweb/images/qita/chen/6.jpg" style="margin-left: 1120px;margin-top: 640px;z-index: 100 "download >图片6</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script> 
+
+$(document).ready(function(){
+  $(".div_1").hover(function(){
+    $(".div_1").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'125px',
+		"margin-left":'175px',
+
+	  zIndex:1,
+	  });
+	  $(".div_2").css({ zIndex:0,})
+	   $(".div_3").css({ zIndex:0,})
+	  $(".div_4").css({ zIndex:0,})
+	   $(".div_5").css({ zIndex:0,})
+	  $(".div_6").css({ zIndex:0,})
+
+
+	  $(".div_1").mouseleave(function(){
+    $(".div_1").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'200px',
+		"margin-left":'300px',
+	   zIndex:0,
+	  }); })     
+	  
+  });
+
+
+  $(".div_2").hover(function(){
+    $(".div_2").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'125px',
+		"margin-left":'525px',
+	  zIndex:1,
+	  });
+	   $(".div_1").css({ zIndex:0,})
+	   $(".div_3").css({ zIndex:0,})
+	    $(".div_4").css({ zIndex:0,})
+	   $(".div_5").css({ zIndex:0,})
+	  $(".div_6").css({ zIndex:0,})
+	  $(".div_2").mouseleave(function(){
+    $(".div_2").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'200px',
+		"margin-left":'650px',
+	  zIndex:0
+	  }); })  
+	    });
+		
+		
+		$(".div_3").hover(function(){
+    $(".div_3").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'125px',
+		"margin-left":'875px',
+	  zIndex:1,
+	  });
+	   $(".div_1").css({ zIndex:0,})
+	   $(".div_2").css({ zIndex:0,})
+			  $(".div_4").css({ zIndex:0,})
+	   $(".div_5").css({ zIndex:0,})
+	  $(".div_6").css({ zIndex:0,})
+	  $(".div_3").mouseleave(function(){
+    $(".div_3").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'200px',
+		"margin-left":'1000px',
+	  zIndex:0
+	  }); })
+	    });
+
+
+
+
+				$(".div_4").hover(function(){
+    $(".div_4").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'375px',
+		"margin-left":'175px',
+	  zIndex:1,
+	  });
+	   $(".div_1").css({ zIndex:0,})
+	   $(".div_2").css({ zIndex:0,})
+			  $(".div_3").css({ zIndex:0,})
+	   $(".div_5").css({ zIndex:0,})
+	  $(".div_6").css({ zIndex:0,})
+	  $(".div_4").mouseleave(function(){
+    $(".div_4").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'450px',
+		"margin-left":'300px',
+	  zIndex:0
+	  }); })
+	    });
+
+			$(".diva5").hover(function(){
+    $(".div_5").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'375px',
+		"margin-left":'525px',
+	  zIndex:1,
+	  });
+	   $(".div_1").css({ zIndex:0,})
+	   $(".div_2").css({ zIndex:0,})
+			  $(".div_4").css({ zIndex:0,})
+	   $(".div_3").css({ zIndex:0,})
+	  $(".div_6").css({ zIndex:0,})
+	  $(".diva5").mouseleave(function(){
+    $(".div_5").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'450px',
+		"margin-left":'650px',
+	  zIndex:0
+	  }); })
+	    });
+
+			$(".div_6").hover(function(){
+    $(".div_6").css({
+      height:'300px',
+      width:'550px',
+		"margin-top":'375px',
+		"margin-left":'875px',
+	  zIndex:1,
+	  });
+	   $(".div_1").css({ zIndex:0,})
+	   $(".div_2").css({ zIndex:0,})
+			  $(".div_4").css({ zIndex:0,})
+	   $(".div_5").css({ zIndex:0,})
+	  $(".div_3").css({ zIndex:0,})
+	  $(".div_6").mouseleave(function(){
+    $(".div_6").css({
+      height:'150px',
+      width:'300px',
+		"margin-top":'450px',
+		"margin-left":'1000px',
+	  zIndex:0
+	  }); })
+	    });
+
+
+
+  
+  
+});
+</script> 
+
+
+
+<div id="div3">
+</div>
+<div id="div4">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="apDiv4" style="position: absolute; left: 433px; top: 649px; width: 736px; height: 25px; z-index: 4; vertical-align: middle"><form>     <div align="center"><center><p style="color:#B8B8B8">   此页面很好: <input TYPE="radio" id="radio1" value="谢谢您的鼓励和支持！" onClick="alert(value)" />    此页面一般: <input TYPE="radio" id="radio2" value="我会不断努力的！" onClick="alert(value)" />   此页面太差:
+	<input TYPE="radio" id="radio3" value="具体的意见请QQ联系我,谢谢！" onClick="alert(value)" />  </p></center>
+</div>
+</form></div>
+<script>
+$("#radio1").click(function(){$("#apDiv4").empty()})
+$("#radio2").click(function(){$("#apDiv4").empty()})
+$("#radio3").click(function(){$("#apDiv4").empty()})
+</script>
+<div id="apDiv5"></div>
+<canvas id="canvas"></canvas>
+<script>
+"use strict";
+
+var canvas = document.getElementById('canvas'),
+  ctx = canvas.getContext('2d'),
+  w = canvas.width = window.innerWidth,
+  h = canvas.height = window.innerHeight,
+
+  hue = 217,
+  stars = [],
+  count = 0,
+  maxStars = 1200;
+
+var canvas2 = document.createElement('canvas'),
+  ctx2 = canvas2.getContext('2d');
+canvas2.width = 100;
+canvas2.height = 100;
+var half = canvas2.width / 2,
+  gradient2 = ctx2.createRadialGradient(half, half, 0, half, half, half);
+gradient2.addColorStop(0.025, '#fff');
+gradient2.addColorStop(0.1, 'hsl(' + hue + ', 61%, 33%)');
+gradient2.addColorStop(0.25, 'hsl(' + hue + ', 64%, 6%)');
+gradient2.addColorStop(1, 'transparent');
+
+ctx2.fillStyle = gradient2;
+ctx2.beginPath();
+ctx2.arc(half, half, half, 0, Math.PI * 2);
+ctx2.fill();
+
+// End cache
+
+function random(min, max) {
+  if (arguments.length < 2) {
+    max = min;
+    min = 0;
+  }
+
+  if (min > max) {
+    var hold = max;
+    max = min;
+    min = hold;
+  }
+
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function maxOrbit(x, y) {
+  var max = Math.max(x, y),
+    diameter = Math.round(Math.sqrt(max * max + max * max));
+  return diameter / 2;
+}
+
+var Star = function() {
+
+  this.orbitRadius = random(maxOrbit(w, h));
+  this.radius = random(60, this.orbitRadius) / 12;
+  this.orbitX = w / 2;
+  this.orbitY = h / 2;
+  this.timePassed = random(0, maxStars);
+  this.speed = random(this.orbitRadius) / 900000;
+  this.alpha = random(2, 10) / 10;
+
+  count++;
+  stars[count] = this;
+}
+
+Star.prototype.draw = function() {
+  var x = Math.sin(this.timePassed) * this.orbitRadius + this.orbitX,
+    y = Math.cos(this.timePassed) * this.orbitRadius + this.orbitY,
+    twinkle = random(10);
+
+  if (twinkle === 1 && this.alpha > 0) {
+    this.alpha -= 0.05;
+  } else if (twinkle === 2 && this.alpha < 1) {
+    this.alpha += 0.05;
+  }
+
+  ctx.globalAlpha = this.alpha;
+  ctx.drawImage(canvas2, x - this.radius / 2, y - this.radius / 2, this.radius, this.radius);
+  this.timePassed += this.speed;
+}
+
+for (var i = 0; i < maxStars; i++) {
+  new Star();
+}
+
+function animation() {
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.globalAlpha = 0.8;
+  ctx.fillStyle = 'hsla(' + hue + ', 64%, 6%, 1)';
+  ctx.fillRect(0, 0, w, h)
+
+  ctx.globalCompositeOperation = 'lighter';
+  for (var i = 1, l = stars.length; i < l; i++) {
+    stars[i].draw();
+  };
+
+  window.requestAnimationFrame(animation);
+}
+
+animation();
+</script>
+{% include 'btm.html' %}
+</body>
+</html>

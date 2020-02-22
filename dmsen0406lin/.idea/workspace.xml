@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5759e10-2ec1-4606-9797-cf43fd7c9822" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dmsen0406lin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/gerenweb/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmseng/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1210">
+              <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+              <folding>
+                <element signature="e#640#672#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/app01/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7722">
+              <caret line="357" column="27" selection-start-line="357" selection-start-column="27" selection-end-line="357" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/app01/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="235" column="20" lean-forward="true" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dmseng/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3168">
+              <caret line="144" column="37" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/testWebsock.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>machineIdIOP/get</find>
+      <find>nav</find>
+      <find>video</find>
+      <find>menu-icon</find>
+      <find>video-content</find>
+      <find>inner</find>
+      <find>scroll-icon</find>
+      <find>video-container</find>
+      <find>png</find>
+      <find>127.0.0.1:8000</find>
+      <find>js/</find>
+      <find>$(</find>
+      <find>prettyPhoto</find>
+      <find>main</find>
+      <find>star.90</find>
+      <find>star</find>
+      <find>jpg</find>
+      <find>2.97c6692a.png</find>
+      <find>127.0.0.1</find>
+      <find>112.74</find>
+      <find>INTER</find>
+      <find>112</find>
+      <find>(window[&quot;webpackJsonp&quot;]=window[&quot;webpackJsonp&quot;]||[]).push([[&quot;chunk-2d0d8014&quot;],{&quot;78da&quot;:function(t,e,a){&quot;use strict&quot;;a.r(e);var r=function(){var t=this,e=t.$createElement,a=t._self._c||e;return a(&quot;div&quot;,[a(&quot;Card&quot;,{staticClass:&quot;headerCard&quot;,attrs:{&quot;dis-hover&quot;:!0}},[a(&quot;Steps&quot;,{attrs:{current:t.current}},[a(&quot;Step&quot;,{attrs:{title:&quot;选择异常记录信息&quot;,icon:&quot;md-arrow-dropdown-circle&quot;}}),a(&quot;Step&quot;,{attrs:{title:&quot;选择解决方案&quot;,icon:&quot;md-arrow-dropdown-circle&quot;}}),a(&quot;Step&quot;,{attrs:{title:&quot;提交反馈&quot;,icon:&quot;ios-mail&quot;}}),a(&quot;Step&quot;,{attrs:{title:&quot;完成&quot;,icon:&quot;ios-checkmark-circle&quot;}})],1)],1),a(&quot;Card&quot;,{directives:[{name:&quot;show&quot;,rawName:&quot;v-show&quot;,value:0===t.current,expression:&quot;current === 0&quot;}],attrs:{&quot;dis-hover&quot;:!0}},[t._v(&quot;\n    点击前往\n    &quot;),a(&quot;a&quot;,{on:{click:function(e){return t.handleGo(&quot;/alarm/record&quot;)}}},[t._v(&quot;异常记录页面&quot;)]),t._v(&quot;选择异常记录\n  &quot;)]),a(&quot;Card&quot;,{directives:[{name:&quot;show&quot;,rawName:&quot;v-show&quot;,value:1===t.current,expression:&quot;current === 1&quot;}],attrs:{&quot;dis-hover&quot;:!0}},[a(&quot;tables&quot;,{ref:&quot;tables&quot;,attrs:{border:&quot;&quot;,&quot;disabled-hover&quot;:!0,editable:&quot;&quot;,searchable:&quot;&quot;,&quot;search-place&quot;:&quot;top&quot;,columns:t.alarmCodesColumns},model:{value:t.alarmCodesTableData,callback:function(e){t.alarmCodesTableData=e},expression:&quot;alarmCodesTableData&quot;}})],1),a(&quot;Card&quot;,{directives:[{name:&quot;show&quot;,rawName:&quot;v-show&quot;,value:2===t.current,expression:&quot;current === 2&quot;}],attrs:{&quot;dis-hover&quot;:!0}},[a(&quot;Divider&quot;,{attrs:{orientation:&quot;left&quot;}},[t._v(&quot;异常记录&quot;)]),a(&quot;Table&quot;,{attrs:{columns:t.record,data:t.recordData}}),a(&quot;Divider&quot;,{attrs:{orientation:&quot;left&quot;}},[t._v(&quot;组合码记录&quot;)]),a(&quot;Table&quot;,{attrs:{columns:t.group,data:t.groupData}}),a(&quot;Divider&quot;,{attrs:{orientation:&quot;left&quot;}},[t._v(&quot;解决方案&quot;)]),a(&quot;Table&quot;,{attrs:{columns:t.solution,data:t.solutionData}}),a(&quot;Select&quot;,{staticStyle:{margin:&quot;10px 0&quot;},model:{value:t.status,callback:function(e){t.status=e},expression:&quot;status&quot;}},[a(&quot;Option&quot;,{attrs:{value:0}},[t._v(&quot;失败&quot;)]),a(&quot;Option&quot;,{attrs:{value:1}},[t._v(&quot;成功&quot;)]),a(&quot;Option&quot;,{attrs:{value:2}},[t._v(&quot;处理中&quot;)])],1),a(&quot;Input&quot;,{attrs:{type:&quot;textarea&quot;,rows:4,placeholder:&quot;反馈信息&quot;},model:{value:t.msg,callback:function(e){t.msg=e},expression:&quot;msg&quot;}}),a(&quot;Button&quot;,{staticStyle:{margin:&quot;10px 0&quot;},attrs:{type:&quot;success&quot;},on:{click:t.handleSubmit}},[t._v(&quot;提交反馈&quot;)])],1),a(&quot;Card&quot;,{directives:[{name:&quot;show&quot;,rawName:&quot;v-show&quot;,value:3===t.current,expression:&quot;current === 3&quot;}],attrs:{&quot;dis-hover&quot;:!0}},[t._v(&quot;\n    提交成功..\n    &quot;),a(&quot;a&quot;,{on:{click:t.handleReset}},[t._v(&quot;继续提交&quot;)])])],1)},s=[],o=(a(&quot;96cf&quot;),a(&quot;3b8d&quot;)),i=a(&quot;fa69&quot;),n=a(&quot;9e04&quot;),l=a(&quot;365c&quot;),c={components:{Tables:i[&quot;a&quot;]},data:function(){var t=this;return{status:0,msg:&quot;&quot;,current:this.$store.state.alarm.current,recordData:[],record:[{title:&quot;异常码名称&quot;,key:&quot;codeName&quot;},{title:&quot;设备名称&quot;,key:&quot;macName&quot;},{title:&quot;监测点名称&quot;,key:&quot;iopName&quot;},{title:&quot;异常码&quot;,key:&quot;code&quot;},{title:&quot;异常消息&quot;,key:&quot;codeMsg&quot;},{title:&quot;开始时间&quot;,key:&quot;sDate&quot;},{title:&quot;持续时间&quot;,key:&quot;duration&quot;},{title:&quot;严重级别&quot;,key:&quot;level&quot;}],groupData:[],group:[{title:&quot;组合码名称&quot;,key:&quot;codeName&quot;},{title:&quot;监测点组名称&quot;,key:&quot;iopName&quot;},{title:&quot;异常码&quot;,key:&quot;code&quot;},{title:&quot;异常消息&quot;,key:&quot;codeMsg&quot;},{title:&quot;开始时间&quot;,key:&quot;sDate&quot;},{title:&quot;持续时间&quot;,key:&quot;duration&quot;},{title:&quot;严重级别&quot;,key:&quot;level&quot;}],solution:[{title:&quot;名称&quot;,key:&quot;name&quot;},{title:&quot;描述&quot;,key:&quot;detail&quot;},{title:&quot;适用异常码/组合码&quot;,key:&quot;list&quot;}],solutionData:[],alarmCodesTableData:[],alarmCodesColumns:[{title:&quot;设备名称&quot;,key:&quot;macName&quot;},{title:&quot;监测点名称&quot;,key:&quot;iopName&quot;},{title:&quot;异常码&quot;,key:&quot;code&quot;},{title:&quot;异常码名称&quot;,key:&quot;codeName&quot;},{title:&quot;异常消息&quot;,key:&quot;codeMsg&quot;},{title:&quot;开始时间&quot;,key:&quot;sDate&quot;},{title:&quot;持续时间&quot;,key:&quot;duration&quot;},{title:&quot;严重级别&quot;,key:&quot;level&quot;},{title:&quot;异常记录状态&quot;,key:&quot;status&quot;,render:function(t,e){var a=e.row,r=0===a.status?&quot;default&quot;:2===a.status?&quot;primary&quot;:&quot;success&quot;,s=0===a.status?&quot;未处理&quot;:2===a.status?&quot;处理中&quot;:&quot;已处理&quot;;return t(&quot;Tag&quot;,{props:{type:&quot;dot&quot;,color:r},style:{marginLeft:&quot;-5px&quot;}},s)}},{title:&quot;操作&quot;,key:&quot;handle&quot;,searchable:!1,button:[function(e,a,r){return e(&quot;div&quot;,[e(&quot;Button&quot;,{props:{type:&quot;primary&quot;,size:&quot;small&quot;},style:{marginLeft:&quot;-10px&quot;},on:{click:function(){t.handleGo(&quot;/alarm/solution&quot;)}}},&quot;选择解决方案&quot;)])}]}]}},watch:{current:function(t,e){this.current=t}},methods:{handleSubmit:function(){var t=Object(o[&quot;a&quot;])(regeneratorRuntime.mark(function t(){var e,a,r,s,o,i,c,u,d,m,h;return regeneratorRuntime.wrap(function(t){while(1)switch(t.prev=t.next){case 0:if(e=!1,a=this,this.recordData.length&gt;0?(r=this.solutionData[0].id,s=this.recordData[0].code,o=this.recordData[0].sDate,i=this.recordData[0].id,c=this.status,u=this.msg,d=this.recordData[0].macName):(r=this.solutionData[0].id,s=this.groupData[0].code,o=this.groupData[0].sDate,i=this.groupData[0].id,c=this.status,u=this.msg,e=!0),t.prev=3,!e){t.next=13;break}return t.next=7,Object(n[&quot;c&quot;])({solution:r,record:i,sDate:o,code:s,msg:u,status:c});case 7:m=t.sent,1===m.data.result?a.$Message.error(m.data.msg):a.$Message.success(m.data.msg),a.$store.commit(&quot;setCurrent&quot;,3),a.current=3,t.next=20;break;case 13:return t.next=15,Object(n[&quot;d&quot;])({solution:r,record:i,sDate:o,code:s,msg:u,status:c,macName:d});case 15:h=t.sent,console.log(&quot;+++&quot;),1===h.data.result?a.$Message.error(h.data.msg):a.$Message.success(h.data.msg),a.$store.commit(&quot;setCurrent&quot;,3),a.current=3;case 20:t.next=25;break;case 22:t.prev=22,t.t0=t[&quot;catch&quot;](3),void 0!==t.t0.response?Object(l[&quot;a&quot;])(t.t0.response.status):Object(l[&quot;a&quot;])(1);case 25:case&quot;end&quot;:return t.stop()}},t,this,[[3,22]])}));function e(){return t.apply(this,arguments)}return e}(),handleGo:function(t){this.$router.push(t)},handleReset:function(){this.$store.commit(&quot;setCurrent&quot;,0),this.current=0}},beforeMount:function(){1===this.current&amp;&amp;(this.alarmCodesTableData=[],this.alarmCodesTableData.push(this.$store.state.alarm.alarmRecord)),this.solutionData.push(this.$store.state.alarm.solution),this.recordData.push(this.$store.state.alarm.alarmRecord),this.groupData.push(this.$store.state.alarm.alarmRecordGroup)}},u=c,d=a(&quot;2877&quot;),m=Object(d[&quot;a&quot;])(u,r,s,!1,null,&quot;dc5993a6&quot;,null);e[&quot;default&quot;]=m.exports}}]);</find>
+      <find>127</find>
+      <find>112.74.59.53</find>
+      <find>127.0</find>
+      <find>127.0.0</find>
+      <find>PhysicalNameLists</find>
+      <find>destroy</find>
+      <find>alarmInterval</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>霖</replace>
+      <replace>/static/js/</replace>
+      <replace>./static/css</replace>
+      <replace>./static/js</replace>
+      <replace>/static/css</replace>
+      <replace>/static/js/lin</replace>
+      <replace>/static/css/lin</replace>
+      <replace>static/js/</replace>
+      <replace>/static/img/lin</replace>
+      <replace>/static/js/lin/</replace>
+      <replace>www.dmsen.cn</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\dmseng\dmsen0406lin\static\js\lin</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/contrib/admin/widgets.py" />
+        <option value="$PROJECT_DIR$/dmsen0406lin/urls.py" />
+        <option value="$PROJECT_DIR$/dmsen0406lin/settings.py" />
+        <option value="$PROJECT_DIR$/app01/admin.py" />
+        <option value="$PROJECT_DIR$/app01/apps.py" />
+        <option value="$PROJECT_DIR$/app01/global_views.py" />
+        <option value="$PROJECT_DIR$/app01/views.py" />
+        <option value="$PROJECT_DIR$/apps/gerenweb/templates/gerenweb/index2.html" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/apps/gerenweb/admin.py" />
+        <option value="$PROJECT_DIR$/apps/gerenweb/models.py" />
+        <option value="$PROJECT_DIR$/apps/app01/admin.py" />
+        <option value="$PROJECT_DIR$/static/js/app.fed8bbe4.js" />
+        <option value="$PROJECT_DIR$/templates/lin/index.html" />
+        <option value="$PROJECT_DIR$/static/js/lin/app.833928dd.js" />
+        <option value="$PROJECT_DIR$/apps/lin/urls.py" />
+        <option value="$PROJECT_DIR$/apps/lin/views.py" />
+        <option value="$PROJECT_DIR$/apps/lin/apps.py" />
+        <option value="$PROJECT_DIR$/static/css/lin/app.feb46981.css" />
+        <option value="$PROJECT_DIR$/static/js/lin/app.19011b0d.js" />
+        <option value="$PROJECT_DIR$/apps/app01/forms.py" />
+        <option value="$PROJECT_DIR$/dmseng/settings.py" />
+        <option value="$PROJECT_DIR$/static/css/beforeLin.css" />
+        <option value="$PROJECT_DIR$/templates/linBefore.html" />
+        <option value="$PROJECT_DIR$/static/js/lin/app.f063de44.js" />
+        <option value="$PROJECT_DIR$/apps/lin/templates/lin/index.html" />
+        <option value="$PROJECT_DIR$/static/js/lin/app.ff3744e4.js" />
+        <option value="$PROJECT_DIR$/static/js/main.js" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/js/1.37fdd766c399237d1710.js" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-d23f60c2.24830312.js" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-4f64f758.813779a5.js" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-d5c34882.a4d5cb62.js" />
+        <option value="$PROJECT_DIR$/dmseng/urls.py" />
+        <option value="$PROJECT_DIR$/templates/testWebsock.html" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-12f14c96.fa1e56b3.js" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-a1f1d0a2.3cc10257.js" />
+        <option value="$PROJECT_DIR$/apps/app01/views.py" />
+        <option value="$PROJECT_DIR$/static/js/lin/chunk-e3ed3d72.4221dfc2.js" />
+        <option value="$PROJECT_DIR$/apps/app01/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="dmseng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dmseng\dmsen0406lin\templates" />
+      <recent name="F:\dmseng\dmsen0406lin\static\video" />
+      <recent name="F:\dmseng\dmsen0406lin\static\css\img" />
+      <recent name="F:\dmseng\dmsen0406lin\static\css" />
+      <recent name="F:\dmseng\dmsen0406lin\static\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5759e10-2ec1-4606-9797-cf43fd7c9822" name="Default Changelist" comment="" />
+      <created>1554559378557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554559378557</updated>
+      <workItem from="1554895074541" duration="344000" />
+      <workItem from="1554896440516" duration="1956000" />
+      <workItem from="1554902244494" duration="4312000" />
+      <workItem from="1554969047632" duration="8078000" />
+      <workItem from="1554990125428" duration="4184000" />
+      <workItem from="1555057076959" duration="10036000" />
+      <workItem from="1555080253749" duration="667000" />
+      <workItem from="1555147511808" duration="15322000" />
+      <workItem from="1555167603822" duration="117000" />
+      <workItem from="1555238175291" duration="3146000" />
+      <workItem from="1555416023886" duration="8268000" />
+      <workItem from="1555427983332" duration="14000" />
+      <workItem from="1555501924734" duration="9722000" />
+      <workItem from="1555661490022" duration="15670000" />
+      <workItem from="1555759888081" duration="16209000" />
+      <workItem from="1555851546086" duration="9446000" />
+      <workItem from="1555907596939" duration="3579000" />
+      <workItem from="1555912598994" duration="3709000" />
+      <workItem from="1555926942106" duration="1706000" />
+      <workItem from="1555938273027" duration="928000" />
+      <workItem from="1556104650807" duration="14127000" />
+      <workItem from="1556165599158" duration="8125000" />
+      <workItem from="1556199046734" duration="606000" />
+      <workItem from="1556200049388" duration="8384000" />
+      <workItem from="1556280090784" duration="6294000" />
+      <workItem from="1556362120938" duration="8985000" />
+      <workItem from="1556373472618" duration="5632000" />
+      <workItem from="1556778244417" duration="1955000" />
+      <workItem from="1556780685870" duration="15856000" />
+      <workItem from="1557488282388" duration="1538000" />
+      <workItem from="1557490162072" duration="599000" />
+      <workItem from="1557492982705" duration="645000" />
+      <workItem from="1566196456686" duration="36000" />
+      <workItem from="1566196548186" duration="1783000" />
+      <workItem from="1566198367545" duration="1840000" />
+      <workItem from="1567069947597" duration="3361000" />
+      <workItem from="1567318331918" duration="2506000" />
+      <workItem from="1570804153732" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="199688000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.2255291" />
+      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.17803837" />
+      <window_info id="Favorites" order="2" sideWeight="0.5030675" side_tool="true" weight="0.17803837" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38552436" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1108742" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.21543624" />
+      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" weight="0.17803837" />
+      <window_info id="Favorites" order="2" sideWeight="0.5030675" side_tool="true" weight="0.17803837" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.13293944" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.1108742" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/urls.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-0fe3080a.1eed8715.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-1b5fbf9b.67e9c117.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-1e84e3c4.3d88d6ac.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-1ef9e152.0048681a.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2c359864.ba543a61.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2d0ae91a.30608968.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2d0d8014.8fe74dc6.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2d213e3d.366e1bd3.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2d215c75.8b19ab3e.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-2fee5f4b.12735c0e.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-03f45d13.81c1c7ad.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-4a610dfc.76dbf054.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-4f64f758.813779a5.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-5dbd3a64.8af15703.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-12f14c96.fa1e56b3.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-14b9857b.1b2d3f4d.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-28d8adf4.8c9d04d8.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-36f3f0fb.49fd7be9.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-74a7c6cf.82879121.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-74a86fbc.5f10dcce.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-744d0b17.d481fc0d.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-854b3152.409f73a7.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-3329a169.0eb5ffc4.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-356035da.65085bfe.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-630141ca.f7bab7e4.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-647214dc.a53b26c7.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-1010292f.8ea9c128.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-3385141a.77319b08.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-15391003.eca3bb65.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-d5c34882.a4d5cb62.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-d23f60c2.24830312.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-e3bb1976.35dc0cdc.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/app.ff3744e4.js" />
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-a1f1d0a2.3cc10257.js" />
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/templates/gerenweb/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/templates/gerenweb/index2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-vendors.4f126abb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lin/chunk-e3ed3d72.4221dfc2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2845" selection-start-column="2845" selection-end-column="2845" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmseng/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="60" column="41" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7722">
+          <caret line="357" column="27" selection-start-line="357" selection-start-column="27" selection-end-line="357" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmseng/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="144" column="37" selection-start-line="144" selection-start-column="37" selection-end-line="144" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/testWebsock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="47" selection-start-line="8" selection-start-column="71" selection-end-line="137" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="235" column="20" lean-forward="true" selection-start-line="235" selection-start-column="20" selection-end-line="235" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

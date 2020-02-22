@@ -1,0 +1,157 @@
+  <div class="col-md-4">
+
+                            <div class="common_block_border blog_position">
+                                <div class="common_block_title_right">
+                                    推荐(By随机)
+                                </div>
+
+                                <div class="clearfix" style="position: relative">
+                                        <div class="col-md-4">
+                                            <a title="{{ Tuijian.article_title  }}" href="{% url 'detail' Tuijian.id %}">
+                                               <img alt="{{ Tuijian.article_title  }}" src="/media/{{ Tuijian.article_cover_sm }}" style="width: 100px;height: 70px">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3 class="text-more" style="width: 100%">
+                                                    <a title="{{ Tuijian.article_title  }}" href="{% url 'detail' Tuijian.id %}">
+                                                   {{ Tuijian.article_title  }}</a>
+                                                </h3>
+                                            </div>
+                                            <div>
+                                                <span class="author">{{ Tuijian.publish_date|date:"Y/m/d/ G:i" }}</span>
+                                            </div>
+                                            <div>
+                                            </div>
+                                        </div>
+                                         <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                             <span>
+                                                <i class="glyphicon glyphicon-fire"></i>
+                                                 {{ Tuijian.view_times  }}
+                                             </span>
+                                         </span>
+                                </div>
+                                <div style="margin: 15px"></div>
+
+                            </div>
+
+                        <div class="common_block_border blog_position">
+                                <div class="common_block_title_right">最近更新(By时间)</div>
+
+                                {% for item in Zuijin %}
+                                <div class="clearfix" style="position: relative">
+                                    <div class="col-md-4">
+
+                                            <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">
+                                               <img alt="{{ item.article_title }}" src="/media/{{ item.article_cover_sm }}" style="width: 100px;height: 70px"></a>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3 class="text-more" style="width: 100%">
+                                                <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">{{ item.article_title }}</a>
+                                                </h3>
+                                            </div>
+                                            <div>
+                                                <span class="author">{{ item.publish_date|date:"Y/m/d/ G:i" }}</span>
+                                            </div>
+                                        </div>
+
+                                         <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                              <span>
+                                                <i class="glyphicon glyphicon-fire"></i>{{ item.view_times }}
+                                              </span>
+                                         </span>
+                                </div>
+
+                                <div style="border-bottom: 1px dashed rgb(204, 204, 204);margin: 15px"></div>
+                                {% endfor %}
+
+
+
+
+
+                            </div>
+
+
+
+                            <div class="common_block_border blog_position">
+                                <div class="common_block_title_right">项目热门(By浏览次数)</div>
+
+                                {% for item in Allremen %}
+                                <div class="clearfix" style="position: relative">
+                                    <div class="col-md-4">
+
+                                            <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">
+                                               <img alt="{{ item.article_title }}" src="/media/{{ item.article_cover_sm }}" style="width: 100px;height: 70px"></a>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div>
+                                                <h3 class="text-more" style="width: 100%">
+                                                <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">{{ item.article_title }}</a>
+                                                </h3>
+                                            </div>
+                                            <div>
+                                                <span class="author">{{ item.publish_date|date:"Y/m/d/ G:i" }}</span>
+                                            </div>
+                                        </div>
+
+                                         <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                              <span>
+                                                <i class="glyphicon glyphicon-fire"></i>{{ item.view_times }}
+                                              </span>
+                                         </span>
+                                </div>
+
+                                <div style="border-bottom: 1px dashed rgb(204, 204, 204);margin: 15px"></div>
+                                {% endfor %}
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+
+
+
+                            <div class="common_block_border">
+                                <div class="common_block_title_right">
+                                    热门标签(浏览次数)
+                                </div>
+                                <div>
+                                    <div class="blog_tags" style="padding: 15px;padding-top: 0">
+                                        {% for foo in Renmentag %}
+
+
+{#实现的方法有点傻乎乎，热门标签#}
+ {% for item in foo %}
+
+                                        {% if forloop.first %}
+                                             {% elif forloop.last%}
+{% else %}
+
+
+
+                                        <a href="javascript:" onclick="location.href=' {% for item in foo %}{% if  forloop.last %} {% url 'tag' item %}{% endif %}{% endfor %}'">
+
+
+
+
+
+                                                {{ item }}
+                                             {% endif %}
+
+                                           </a>
+ {% endfor %}
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>

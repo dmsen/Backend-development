@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>联系方式</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/btmstyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="/static/img/firstweb.ico">
+
+
+
+<style type="text/css">
+
+.test1 {
+
+	margin: 0; padding: 0; font-family: "Arial Black"; background-repeat: no-repeat; background-size: 100%;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-color: #212121;
+	background-size: cover;
+	-webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+	-o-background-size: cover;/* 兼容Opera */
+	zoom: 1;
+}
+
+
+
+.test1 #buttom {
+	position: absolute;
+	right: 9px;
+	top: 14px;
+}
+
+
+.test1 table tr td #center1 {
+	position: relative;
+	height: 100px;
+	width: 100px;
+}
+
+
+#menu {
+
+	
+    padding-left: 6px;
+    margin: 0px;
+    list-style-type: none;
+    height:150px;
+}
+#menu li {
+    float: left;
+    margin:0 4px;
+}
+#menu span {
+	float:left;
+    padding-left:18px;
+    background:url(/static/gerenweb/images/menu1.gif) left top repeat-x;    
+    transition: all .3s ease-in;
+}
+#menu li a {
+    padding-right: 18px;
+    float: left;
+    height: 35px;
+    color: #bbb;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    background:url(/static/gerenweb/images/menu1.gif) right top repeat-x;
+    transition: all .3s ease-in;
+}
+#menu a:hover {
+    color: #fff;
+    background-position:right bottom;    
+}
+.test1 table tr #tr1 {
+	position: absolute;
+	top:40px;
+	left:0px;
+	
+}
+#menu a:hover span {
+    background-position:left bottom; 
+    cursor:pointer;
+    cursor:hand;
+}
+#divlast{ text-align: center; font-size: 36px; margin-top: 200px;
+    margin-left:30%;z-index: 99;position: absolute; color: #fff;}
+#divlast a{color: white;text-decoration: none;}
+#divlast a:hover{color: #5eedf5}
+#slogan { text-align: center; font-size: 36px; margin-top: 30%;z-index: 99;position: absolute; color: #fff; }
+#slogan span { color: #ff0 }
+
+#slogan span.selected { background: #09f; color: #fff;}
+
+</style>
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body class="test1">
+
+
+
+<div style="">
+<a id="buttom" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1493347722&site=qq&menu=yes">
+    <img border="0" SRC=http://wpa.qq.com/pa?p=1:894132:13 width="100" height="30" alt="点击这里给我发消息" /></a></div>
+
+
+
+<div id="apDiv1" style="position: absolute; left: 15px; top: 704px; width: 1371px; height: 36px; z-index: 1"><EMBED src="/static/gerenweb/music/3.mp3" loop="infinite" width="0" height="0"  ></embed>
+</div>
+
+<div id="apDiv2" style="position: absolute; left: 11px; top: 10px; width: 218px; height: 116px; z-index: 2; vertical-align: middle"><img src="/static/gerenweb/images/66.gif" alt="网站标识" width="218" height="88" onclick="MM_popupMsg('个人网站标识')" /></div>
+<div id="apDiv3" style="position: absolute; left: 243px; top: 9px; width: 1086px; height: 206px; z-index: 3; vertical-align: middle"><ul id="menu">
+	<li><a href="{% url 'gerenweb:index1'%}" title="首页"><span>首页</span></a></li>
+    <li><a href="{% url 'gerenweb:index2'%}" title="个人简历"><span>个人简历</span></a></li>
+    <li><a href="{% url 'gerenweb:index3'%}" title="壁纸分享"><span>壁纸分享</span></a></li>
+    <li><a href="{% url 'gerenweb:index4'%}" title="网盘资源分享"><span>网盘资源分享</span></a></li>
+    <li><a href="{% url 'gerenweb:index5'%}" title="联系方式"><span>联系方式</span></a></li>
+
+    <li><a href="{% url 'projects' %}" title="dmsen项目网站"><span>前往个人项目网站</span></a></li>
+  <li><a href="{% url 'index' %}" title="dmsen简历网站"><span>前往个人简历网站</span></a></li>
+
+  <li><a href="{% url 'index' %}" title="dmsen博客网站"><span>前往个人博客网站</span></a></li>
+
+    
+</ul></div>
+
+
+
+<div id="apDiv4" style="position: absolute; left: 433px; top: 649px; width: 736px; height: 25px; z-index: 4; vertical-align: middle"><form>     <div align="center"><center><p style="color:#B8B8B8">   此页面很好: <input TYPE="radio" id="radio1" value="谢谢您的鼓励和支持！" onClick="alert(value)" />    此页面一般: <input TYPE="radio" id="radio2" value="我会不断努力的！" onClick="alert(value)" />   此页面太差: <input TYPE="radio" id="radio3" value="具体的意见请QQ联系我,谢谢！" onClick="alert(value)" />  </p></center></div>    </form></div>
+<script>
+$("#radio1").click(function(){$("#apDiv4").empty()})
+$("#radio2").click(function(){$("#apDiv4").empty()})
+$("#radio3").click(function(){$("#apDiv4").empty()})
+</script>
+<div id="slogan" data-text="姓名：單木森(dmsen)"></div>
+<div id="divlast">
+    <p>欢迎您的到来</p>
+    <br>
+    <p>更多dmsen个人网站如下(点击前往):</p>
+    <a href="{% url 'index' %}"style="margin-top: 150px;position: absolute;margin-left: -175px;">dmsen个人简历网站</a>
+    <br>
+    <a href="{% url 'projects' %}">dmsen个人项目网站</a>
+
+</div>
+
+<script src="/static/gerenweb/js/jquery.min.js"></script>
+<script src="/static/gerenweb/js/index.js"></script>
+
+
+<canvas id="c"></canvas>
+<script type="text/javascript">
+var w = c.width = window.innerWidth,
+h = c.height = window.innerHeight,
+ctx = c.getContext('2d'),
+opts = {
+	len: 30,
+	count: 50,
+	baseTime: 10,
+	addedTime: 10,
+	dieChance: .05,
+	spawnChance: 1,
+	sparkChance: .1,
+	sparkDist: 10,
+	sparkSize: 2,
+	color: 'hsl(hue,100%,light%)',
+	baseLight: 50,
+	addedLight: 10,
+	shadowToTimePropMult: 6,
+	baseLightInputMultiplier: .01,
+	addedLightInputMultiplier: .02,
+	cx: w / 2,
+	cy: h / 2,
+	repaintAlpha: .04,
+	hueChange: .1
+},
+tick = 0,
+lines = [],
+dieX = w / 2 / opts.len,
+dieY = h / 2 / opts.len,
+baseRad = Math.PI * 2 / 6;
+ctx.fillStyle = 'black';
+ctx.fillRect(0, 0, w, h);
+function loop() {
+	window.requestAnimationFrame(loop); ++tick;
+	ctx.globalCompositeOperation = 'source-over';
+	ctx.shadowBlur = 0;
+	ctx.fillStyle = 'rgba(0,0,0,alp)'.replace('alp', opts.repaintAlpha);
+	ctx.fillRect(0, 0, w, h);
+	ctx.globalCompositeOperation = 'lighter';
+	if (lines.length < opts.count && Math.random() < opts.spawnChance) lines.push(new Line);
+	lines.map(function(line) {
+		line.step()
+	})
+}
+function Line() {
+	this.reset()
+}
+Line.prototype.reset = function() {
+	this.x = 0;
+	this.y = 0;
+	this.addedX = 0;
+	this.addedY = 0;
+	this.rad = 0;
+	this.lightInputMultiplier = opts.baseLightInputMultiplier + opts.addedLightInputMultiplier * Math.random();
+	this.color = opts.color.replace('hue', tick * opts.hueChange);
+	this.cumulativeTime = 0;
+	this.beginPhase()
+}
+Line.prototype.beginPhase = function() {
+	this.x += this.addedX;
+	this.y += this.addedY;
+	this.time = 0;
+	this.targetTime = (opts.baseTime + opts.addedTime * Math.random()) | 0;
+	this.rad += baseRad * (Math.random() < .5 ? 1 : -1);
+	this.addedX = Math.cos(this.rad)*2;
+	this.addedY = Math.sin(this.rad)*2;
+	if (Math.random() < opts.dieChance || this.x > dieX || this.x < -dieX || this.y > dieY || this.y < -dieY) this.reset()
+}
+Line.prototype.step = function() {++this.time; ++this.cumulativeTime;
+	if (this.time >= this.targetTime) this.beginPhase();
+	var prop = this.time / this.targetTime,
+	wave = Math.sin(prop * Math.PI / 2),
+	x = this.addedX * wave,
+	y = this.addedY * wave;
+	ctx.shadowBlur = prop * opts.shadowToTimePropMult;
+	ctx.fillStyle = ctx.shadowColor = this.color.replace('light', opts.baseLight + opts.addedLight * Math.sin(this.cumulativeTime * this.lightInputMultiplier));
+	ctx.fillRect(opts.cx + (this.x + x) * opts.len, opts.cy + (this.y + y) * opts.len, 2, 2);
+	if (Math.random() < opts.sparkChance) ctx.fillRect(opts.cx + (this.x + x) * opts.len + Math.random() * opts.sparkDist * (Math.random() < .5 ? 1 : -1) - opts.sparkSize / 2, opts.cy + (this.y + y) * opts.len + Math.random() * opts.sparkDist * (Math.random() < .5 ? 1 : -1) - opts.sparkSize / 2, opts.sparkSize, opts.sparkSize)
+}
+loop();
+window.addEventListener('resize',
+function() {
+	w = c.width = window.innerWidth;
+	h = c.height = window.innerHeight;
+	ctx.fillStyle = 'black';
+	ctx.fillRect(0, 0, w, h);
+	opts.cx = w / 2;
+	opts.cy = h / 2;
+	dieX = w / 2 / opts.len;
+	dieY = h / 2 / opts.len
+});
+</script>
+
+
+
+{% include 'btm.html' %}
+</body>
+</html>

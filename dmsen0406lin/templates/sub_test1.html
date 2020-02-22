@@ -1,0 +1,88 @@
+{%extends 'alisub.html'%}
+
+{%block lefttop%}
+
+<p style="font-family: 'Tw Cen MT Condensed';font-size:60px ">{{ keywords }}</p>
+{%endblock%}
+
+{%block title%}
+dmseng项目
+{%endblock%}
+
+{%block content%}
+
+        <div class="common_block_border" >
+        {% if keywords %}
+
+        <div style="padding:0 20px">
+            <section id="contents">
+                {% for article in tag_articles %}
+                <div class="row" style="position: relative">
+                    <div class="col-md-4">
+                        <a title="{{ article.article_title }}" href="{% url 'detail' article.id %}" target="_blank">
+                            <img alt="{{ article.article_title }}" src="{{ article.article_cover.url }}" style="width: 200px;height: 146px">
+                        </a>
+                    </div>
+                    <div class="col-md-8 blog_detail" style="margin-left: -10px">
+                        <div>
+                            <h3 class="text-more media-heading" style="width: 100%">
+                                <a title="{{ article.article_title }}"  href="{% url 'detail' article.id %}" target="_blank">{{ article.article_title }}</a>
+                            </h3>
+                        </div>
+                        <div style="margin-top: 5px">
+                            <span class="author">{{ article.publish_date|date:"Y/m/d f" }}</span>
+
+                            <p class="detail">{{ article.article_abstract }}</p>
+                        </div>
+                        <div class="blog_tags" style="margin-top: 20px">
+                            {% for tag in article.article_tag.all %}
+                            <a href="javascript:" onclick="location.href='{% url 'tag' tag.id %}'" >{{ tag.tag_name_cn }}</a>
+                            {% endfor %}
+                        </div>
+                        <div class="pull-right">
+                            <span><i class="glyphicon glyphicon-fire"></i>{{ article.view_times }}</span>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                {% empty %}
+                    没有查找到相关文章
+                {% endfor %}
+
+
+
+
+
+
+
+            </section>
+         {% if tag_articles %}
+                    <div class="text-right">
+                        <div class="pagination">
+                            {# 上一页按钮 #}
+                            {% if tag_articles.has_previous %}
+                                <li><a href="?keywords={{ keywords }}&page={{ tag_articles.previous_page_number }}">上一页</a></li>
+                            {% endif %}
+                            {% for page_num in tag_articles.paginator.page_range %}
+                            <li class="{% if tag_articles.number == page_num %}active{% endif %}">
+                                <a href="/search/?keywords={{ keywords }}&page={{ page_num }}">{{ page_num }}</a>
+                            </li>
+                            {% endfor %}
+                            {# 下一页按钮 #}
+                            {% if tag_articles.has_next %}
+                                <li><a href="/search/?keywords={{ keywords }}&page={{ tag_articles.next_page_number }}">下一页</a></li>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+        </div>
+        {% else %}
+            <div class="common_block_title">
+                请在<span style="color: red">右上角</span>输入框输入关键字查找所需内容
+            </div>
+        {% endif %}
+        </div>
+
+
+{%endblock%}
+

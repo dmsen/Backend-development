@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>弈林棋社</title>
+
+    <!--以下待修改-->
+    <meta name="description" content="弈林棋社">
+    <meta name="keywords" content="弈林棋社"/>
+    <meta name="author" content="弈林棋社">
+
+    <!-- Favicons
+        ================================================== -->
+
+    <link rel="shortcut icon" href="/static/qishe/log.ico" type="image/x-icon">
+   <link href="/static/qishe/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+{#    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">#}
+    <link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+        ================================================== -->
+    <link href="/static/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/static/css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+        ================================================== -->
+    <link rel="stylesheet" type="text/css" href="/static/qishe/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/prettyPhoto.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/fonts/sns_fonts/iconfont.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background: url('/static/qishe/bg.png')">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-terminal"></i>弈林棋社</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">首页</a>
+                </li>
+                 <li>
+                    <a class="page-scroll" href="{% url 'dxiangce' %}">动态相册</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{% url 'xiangce' %}">3D团体相册</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/static/qishe/img/qishe.jpg">加入我们</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Header -->
+
+<header class="intro">
+
+    <div class="intro-body" style="z-index: 99;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>弈林<span class="brand-heading">棋社</span></h1>
+                    <p class="intro-text">欢迎您的加入</p>
+                    <a href="#about1" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</header>
+
+
+
+
+
+
+
+<!-- About Section -->
+<div id="about1">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h1><strong>弈林棋社,</strong>招新啦</h1>
+            <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6"><img src="/static/qishe/index/title1.png" class="img-responsive"></div>
+
+            <div class="col-md-6">
+                <div class="about-text"><i class="fa fa-users"></i>
+                    <div class="padding-left"><h4>棋子虽小，推演人间沧桑;</h4>
+
+                    </div>
+                    <br/><br/>
+                    <i class="fa fa-magic"></i>
+                    <div class="padding-left"><h4>秤面不大，重现楚汉风云;</h4>
+
+                    </div>
+                    <br/> <br/>
+                    <i class="fa fa-check-square-o"></i>
+                    <div class="padding-left"><h4>合八方英才，交天下朋友!</h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about2">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h1><strong>弈林</strong> 社团简介</h1>
+            <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6"><img src="/static/qishe/index/title2.jpg" class="img-responsive"></div>
+
+            <div class="col-md-6">
+                <div class="about-text"><i class="fa fa-users"></i>
+                    <div class="padding-left">
+                        <h4>在这里，我们以棋会友！</h4>
+                        <br/> <br/>
+                    </div>
+                    <i class="fa fa-magic"></i>
+                    <div class="padding-left">
+                        <h4>在这里，没有最好只有更好！</h4>
+                    <br/> <br/>
+                    </div>
+                    <i class="fa fa-check-square-o"></i>
+                    <div class="padding-left">
+                        <h4>在这里，我们沉醉棋中，棋乐无穷！</h4>
+                    <br/> <br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>弈林棋社 <strong>欢迎你!</strong></h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="testimonial" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <p>
+                            招新时间</br>10月20、21号 工大正门与你相约!
+
+
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                          欢迎加入弈林棋社2018级新生群: 4756621 99</br>我们不见不散呦
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            只要你热爱棋类游戏,热爱棋社，我们都会敞开怀抱迎接你们!</br>加入我们吧!我们将为你们提供一个展示自我，挑战自我的平台!
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<nav id="footer">
+    <div class="container">
+        <div class="pull-left fnav">
+            <p>Copyright &copy; 2018/10/17 作者：Yul Zeng.
+
+
+             <a href="http://www.miitbeian.gov.cn/" style="margin: auto">湘ICP备18017514</a></p>
+
+        </div>
+    </div>
+</nav>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="/static/js/jquery.1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="/static/js/bootstrap.js"></script>
+<script type="text/javascript" src="/static/js/SmoothScroll.js"></script>
+
+<script type="text/javascript" src="/static/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="/static/js/jquery.counterup.js"></script>
+<script type="text/javascript" src="/static/js/waypoints.js"></script>
+<script type="text/javascript" src="/static/js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="/static/js/contact_me.js"></script>
+<script src="/static/js/owl.carousel.js"></script>
+
+<!-- Javascripts
+    ================================================== -->
+<script type="text/javascript" src="/static/js/main.js"></script>
+
+<script>
+    $(function () {
+        var u = navigator.userAgent;
+        if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1 || u.indexOf('iPhone') > -1 || u.indexOf('Windows Phone') > -1 || navigator.userAgent.indexOf("iPad") > -1) {
+            $(".hover-bg .hover-text").css({'opacity': '1'});
+
+            $(".hover-bg .hover-text>h4").css({
+                'opacity': '1',
+                '-webkit-transform': 'translateY(0)',
+                'transform': 'translateY(0)'
+            });
+
+            $(".hover-bg .hover-text>i").css({'opacity': '1'});
+        }
+
+    });
+
+</script>
+
+
+
+
+
+<EMBED src="/static/qishe/music/11.mp3" loop="infinite" width="0" height="0" ></embed>
+
+
+</body>
+</html>
