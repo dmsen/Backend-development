@@ -1,0 +1,91 @@
+<div id="nav_bar" class="nav_bar" style="margin-bottom: 20px;">
+    <nav class="container" id="nav_bar_container" role="navigation">
+        <div class="col-md-9 collapse navbar-collapse col-sm-12 " id="nav_bar_main">
+
+            <ul class="nav navbar-nav col-sm-12" style="font-size: 16px">
+
+
+
+                                                <li class="">
+                            <a href="{% url 'projects' %}" target="_self" >首页</a>
+                        </li>
+                 {% for guid in guids %}
+                                                <li class="{% if current_tag_id|add:0 == guid.tag.id|add:0 %}active{% endif %}">
+                            <a href="{% url 'tag' guid.tag.id %}" target="_self" >{{ guid.guid_name }}</a>
+                        </li>
+{% endfor %}
+            <li class="">
+                            <a href="{% url 'index' %}" target="_self" >dmsen简历网站</a>
+                        </li>
+            <li class="">
+                            <a href="{% url 'gerenweb:index1' %}" target="_self" >dmsen首项目网站</a>
+                        </li>
+
+                                    </ul>
+
+        </div>
+        <!--导航栏菜单项-->
+
+        <div class="row visible-xs">
+
+            <div class="col-md-3 col-xs-9">
+                <div class="pull-right text-right">
+                    <form class="navbar-right" role="search" action="{% url 'search' %}" id="forum_search" method="get" style="margin: 8px 0">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="form-control" name="keywords" value=""id="keywords" placeholder="查找" type="text" >
+
+                                <div class="input-group-btn text-left">
+                                    <button type="button" class="submit_search btn btn-default dropdown-toggle" style="border-left: none;border-top-left-radius: 0;border-bottom-left-radius: 0" data-toggle="dropdown " onclick="search()"><span class="glyphicon glyphicon-search"></span>
+                                    </button>
+
+                                </div>
+
+                                <script>
+                                     function search() {
+                                  var tv = $("#keywords").val();
+                                  // tv.length == 0 : return false;
+                                  if(tv.length>0){
+                                    $('#forum_search').submit();
+                                  }
+                                }
+                                </script>
+                            </div>
+
+                        </div>
+           </form>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="col-md-3 col-xs-12 hidden-xs">
+            <div class="pull-right text-right">
+                <form class="navbar-form navbar-right" action="{% url 'search' %}" role="search" id="forum_search1" method="get">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" name="keywords" value="" id="keywords1" placeholder="查找" type="text">
+
+                            <div class="input-group-btn text-left">
+                                <button type="button" class="submit_search btn btn-default dropdown-toggle" style="border-left: none;border-top-left-radius: 0;border-bottom-left-radius: 0" data-toggle="dropdown"onclick="search1()"><span class="glyphicon glyphicon-search"></span>
+                                </button>
+
+                            </div>
+                            <script>
+                                   function search1() {
+                                  var tv = $("#keywords1").val();
+                                  // tv.length == 0 : return false;
+                                  if(tv.length>0){
+                                    $('#forum_search1').submit();
+                                  }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                <input name="__hash__" value="9f95d73cafde719963b941564f532498_8960863f216fb7d31ddbc259f8ed6baf" type="hidden"></form>
+            </div>
+        </div>
+    </nav>
+</div>

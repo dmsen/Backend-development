@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>霖</title>
+
+    <!--以下待修改-->
+    <meta name="description" content="本人英文名Yun Zeng，是一名IT工程师,对前端、后台和编程技术非常热爱，做过很多技术方面的东西，对我有意向的公司和猎头可以QQ联系我或者给我发邮件，谢谢！">
+    <meta name="keywords" content="Yul Zeng简历，前端工程师，求职前端，前端博客"/>
+    <meta name="author" content="Yul Zeng，个人博客:正在制作中">
+
+    <!-- Favicons
+        ================================================== -->
+
+    <link rel="shortcut icon" href="/static/img/favicon_jianli.ico" type="image/x-icon">
+   <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+{#    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">#}
+    <link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome/css/font-awesome.css">
+
+    <!-- Slider
+        ================================================== -->
+    <link href="/static/css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="/static/css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+        ================================================== -->
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/prettyPhoto.css">
+
+    <link rel="stylesheet" type="text/css" href="/static/fonts/sns_fonts/iconfont.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-terminal"></i>霖</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">基本资料</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#works">项目经验</a>
+                </li>
+
+                <li>
+                    <a class="page-scroll" href="#about">专业技能</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#team">工作经历</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#testimonials">自我评价</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">联系方式</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{% url 'projects' %}">前往个人项目网站</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{% url 'gerenweb:index1' %}">前往个人网站</a>
+                </li>
+                  <li>
+                    <a class="page-scroll" href="{% url 'before_lin' %}">前往霖(VUE+python-2019.5.1)</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Header -->
+
+<header class="intro">
+
+    <div class="intro-body" style="z-index: 99;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>简历<span class="brand-heading">-霖</span></h1>
+                    <p class="intro-text">喜欢技术，热爱挑战</p>
+                    <a href="#services" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</header>
+
+
+
+
+<!-- Services Section -->
+<div id="services" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>基本 <strong>资料</strong></h2>
+            <hr>
+        </div>
+        <div class="space"></div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 service"><i class="fa fa-male"></i>
+                <h4><strong>个人信息</strong></h4>
+                <p>
+                    英文名:dmsen &nbsp;性别：男<br>
+                    年龄: 20岁 籍贯：湖南
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 service"><i class="fa fa-paw"></i>
+                <h4><strong>专业学历</strong></h4>
+                <p>
+                    专业：信息管理与信息系统<br>
+                    学历：大学本科</br>
+
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 service"><i class="fa fa-institution"></i>
+                <h4><strong>毕业学校</strong></h4>
+                <p>
+                    就读学校：湖南工业大学(大二)<br>
+                    学习技能：编程
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-6 service"><i class="fa fa-bullseye"></i>
+                <h4><strong>联系方式</strong></h4>
+                <p>QQ：1493347722<br>
+                    邮箱：1493347722@qq.com</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--增加个人博客网址-->
+<div class="text-center" style="background-color:black;">Yul Zeng简历&nbsp; <a style="  color: grey" href="{% url 'projects'  %}">&nbsp;运维、后台、软件开发工程师</a>
+
+</div>
+<!-- Portfolio Section -->
+<div id="works">
+    <div class="container"> <!-- Container -->
+        <div class="section-title text-center center">
+            <a href="{% url 'projects'  %}" style="color: blue"><h2>项目 <strong>经验</strong></h2></a>
+            <hr>
+            <div class="clearfix"></div>
+            <p>主要涉及前端、后台、运维、软件开发等，主要技术是python+linux+django+前端+数据库(mysql、redis)</p>
+        </div>
+        <div class="categories">
+            <ul class="cat">
+                <li>
+                    <ol class="type">
+                        <li><a href="#" data-filter="*" class="active">所有</a></li>
+                        <li><a href="#" data-filter=".python">python</a></li>
+                        <li><a href="#" data-filter=".spider">爬虫</a></li>
+                        <li><a href="#" data-filter=".django">django</a></li>
+                        <li><a href="#" data-filter=".linux">linux</a></li>
+                        <li><a href="{% url 'tag' 3 %}" data-filter="{% url 'tag' 3 %}">前往个人项目网站</a></li>
+                    </ol>
+
+                </li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+
+
+        <div class="row">
+            <div class="portfolio-items">
+                {#python项目#}
+                {% for item in Article_p %}
+                    <div class="col-sm-6 col-md-3 col-lg-3 python">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="hover-text">
+                                    <h4><a href='{% url 'detail' item.id %}' target='_blank'
+                                           title="{{ item.article_title }}">{{ item.article_title }}</a></h4>
+                                    <small>{{ item.article_abstract }}</small>
+                                    <div class="clearfix"></div>
+                                    <a href="{% url 'detail' item.id %}" target="_blank"><i
+                                            class="fa fa-search"></i></a></div>
+                                <a href="{% url 'detail' item.id %}" target="_blank">
+                                    <img style="
+	text-align: center;
+	height: 100%;
+	width: 100%;"
+	src="/media/{{ item.article_cover_sm }}" class="img-responsive" alt="{{ item.article_title }}"></a></div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+                {#爬虫项目#}
+                {% for item in Article_s %}
+                    <div class="col-sm-6 col-md-3 col-lg-3 spider">
+                        <div class="portfolio-item">
+                            <div class="hover-bg">
+                                <div class="hover-text">
+                                    <h4><a href="{% url 'detail' item.id %}" target='_blank'
+                                           title="{{ item.article_title }}">{{ item.article_title }}</a></h4>
+                                    <small>{{ item.article_abstract }}</small>
+                                    <div class="clearfix"></div>
+                                    <i class="fa fa-search"></i></div>
+                                <img style="
+	text-align: center;
+	height: 100%;
+	width: 100%;" src="/media/{{ item.article_cover_sm }}" class="img-responsive"
+                                     alt="{{ item.article_title }}"></div>
+                        </div>
+                    </div>
+                {% endfor %}
+
+                {#django项目#}
+           {% for item in Article_d %}
+                <div class="col-sm-6 col-md-3 col-lg-3 django ">
+                    <div class="portfolio-item">
+                        <div class="hover-bg">
+                            <div class="hover-text">
+                                <h4><a href="{% url 'detail' item.id %}" target='_blank' title="{{ item.article_title }}">{{ item.article_title }}</a></h4>
+                                <small>{{ item.article_abstract }}</small>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-search"></i></div>
+                            <img src="/media/{{ item.article_cover_sm }}" style="
+	text-align: center;
+	height: 100%;
+	width: 100%;"  class="img-responsive" alt="{{ item.article_title }}"></div>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+                {#linux项目#}
+                <div class="col-sm-6 col-md-3 col-lg-3 linux">
+                    <div class="portfolio-item">
+
+                        <div class="hover-bg">
+                            <div class="hover-text">
+                                <h4><a href='#' target='_blank' title="linux项目">linux项目（正在开发）</a></h4>
+                                <small>技术：linux</small>
+                                <div class="clearfix"></div>
+                                <i class="fa fa-search"></i>
+                            </div>
+                            <img src="#" style="
+	text-align: center;
+	height: 100%;
+	width: 100%;" class="img-responsive" alt="linux项目（正在开发）">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--    <section id="video-container" >-->
+<!--        <div class="video-overlay" id="mao4"></div>-->
+<!--        <div class="video-content">-->
+<!--            <div class="inner">-->
+<!--                <span>Video Presentation</span>-->
+<!--                <h2>Sed et risus ac sapien congue mattis.</h2>-->
+<!--                <a href="index2.html" ><i class="fa fa-play"></i></a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <video autoplay loop muted>-->
+<!--        	<source src="/static/video/highway-loop.mp4" type="video/mp4" />-->
+<!--        </video>-->
+<!--    </section>-->
+
+<!-- About Section -->
+<div id="about">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h2><strong>专业</strong> 技能</h2>
+            <hr>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6"><img src="/static/img/about.png" class="img-responsive"></div>
+
+            <div class="col-md-6">
+                <div class="about-text"><i class="fa fa-users"></i>
+                    <div class="padding-left"><h4>前端</h4>
+                        <p>
+                            熟练使用HTML/CSS，HTML5/CSS3，熟练Javascript编程,能够熟练使用jquery，vue.js等前端框架进行开发，
+                            熟练的使用Echarts等前端工具,了解Ajax等前端技术.熟悉样式库bootstrap，组件库:ivew,element-ui,以及图标库</p>
+                    </div>
+                    <i class="fa fa-magic"></i>
+                    <div class="padding-left"><h4>运维、linux操作系统</h4>
+                        <p>熟练使用linux(centos7,ubuntu)操作系统</p></div>
+                    <i class="fa fa-check-square-o"></i>
+                    <div class="padding-left"><h4>python编程</h4>
+                        <p>拥有良好的编程习惯，精通网络爬虫,能熟悉使用os,shutil,selenuim,pysql,等库</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="achivements" class="section dark-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+                <div class="achivement-box">
+                    <i class="fa fa-user-secret"></i>
+                    <span class="count">20</span>
+                    <h4>Age Years</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="achivement-box">
+                    <i class="fa fa-sun-o"></i>
+                    <span class="count">100000</span>
+                    <h4>Code Amount</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="achivement-box">
+                    <i class="fa fa-home"></i>
+                    <span class="count">0</span>
+                    <h4>Work Hour(暂无工作经验)</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <div class="achivement-box">
+                    <i class="fa fa-star"></i>
+                    <span class="count">20</span>
+                    <h4>Projects Amount</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team Section -->
+<div id="team" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>人生 <strong>经历</strong></h2>
+            <hr>
+            <p>热爱互联网，热爱技术，专注于python技术开发和用户体验</p>
+        </div>
+        <div id="row">
+
+            <div class="col-md-3 col-sm-6">
+                <div class="thumbnail"><img src="/static/img/team/05.png" alt="湖南工业大学" class="img-circle team-img">
+                    <div class="caption">
+                        <h3>湖南工业大学</h3>
+                        <p>2017-08~2021-06</p>
+                        <p>信息管理与信息系统</p>
+                        <p>主要学习编程语言，前端技术，网站制作和开发，运维开发。大学期间做过很多项目，很喜欢编程</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>自我 <strong>评价</strong></h2>
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div id="testimonial" class="owl-carousel owl-theme">
+                    <div class="item">
+                        <p>
+                            热爱学习,良好的团队合作精神，能迅速融入新的团队。</br>易和人相处，拥有良好的亲和力。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            有强烈的责任感，工作踏实，性格开朗乐观，积极上进，吃苦耐劳。</br>能在较大的压力下保持良好的工作状态，善于自我调节。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <p>
+                            非常热爱编程，喜欢钻研新的技术，喜欢接受各种不同的挑战。</br>具有很强的自学能力和良好的学习方法。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2><strong>联系</strong> 方式</h2>
+            <hr>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-4"><i class="fa fa-map-marker fa-2x"></i>
+                <p>湖南工业大学</p>
+            </div>
+            <div class="col-md-4"><i class="fa fa-envelope-o fa-2x"></i>
+                <p>1493347722@qq.com</p>
+            </div>
+            <div class="col-md-4"><i class="fa fa-phone fa-2x"></i>
+                <p>QQ:1493347722</p>
+            </div>
+            <hr>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <hr>
+            <h3>给我发邮件</h3>
+
+            <form name="sentMessage" id="contactForm" novalidate method="POST" >
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-control" placeholder="姓名" required="required" name="username">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-control" placeholder="邮箱" required="required" name="email">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" class="form-control" rows="4" placeholder="内容"
+                              required></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div id="success"></div>
+                <button type="submit" class="btn btn-default" id="submit">确认发送</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<nav id="footer">
+    <div class="container">
+        <div class="pull-left fnav">
+            <p>Copyright &copy; 2018 作者：Yul Zeng. IT工程师
+
+
+             <a href="http://www.miitbeian.gov.cn/" style="margin: auto">湘ICP备18017514</a></p>
+
+        </div>
+        <div class="pull-right fnav">
+            <ul class="footer-social">
+                <li><a href="http://v.t.sina.com.cn/share/share.php?url=http:dmsen.cn/jianli&title=dmsen简历"><i
+                        class="icon iconfont">&#xe66e;</i></a></li>
+
+{#             qq好友分享#}
+                <li>
+                    <a href="http://connect.qq.com/widget/shareqq/index.html?url=http://www.dmsen.cn&title=dmsen个人简历&desc=欢迎您的访问" target="_blank">
+                        <i class="icon iconfont">&#xe629;</i>
+                    </a>
+                </li>
+{#qq空间分享#}
+                <li>
+                    <a href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://www.dmsen.cn" target="_blank">
+                        <i class="icon iconfont">&#xe616;</i></a></li>
+
+                <li>
+                    <a href="http://share.renren.com/share/buttonshare.do?link=http:dmsen.cn/jianli&title=dmsen简历"><i
+                            class="icon iconfont">&#xe66b;</i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script type="text/javascript" src="/static/js/jquery-1.11.2.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="/static/js/bootstrap.js"></script>
+<script type="text/javascript" src="/static/js/SmoothScroll.js"></script>
+
+<script type="text/javascript" src="/static/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="/static/js/jquery.counterup.js"></script>
+<script type="text/javascript" src="/static/js/waypoints.js"></script>
+<script type="text/javascript" src="/static/js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="/static/js/contact_me.js"></script>
+<script src="/static/js/owl.carousel.js"></script>
+
+<!-- Javascripts
+    ================================================== -->
+<!--<script type="text/javascript" src="/static/js/main.js"></script>-->
+
+<script>
+    $(function () {
+        var u = navigator.userAgent;
+        if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1 || u.indexOf('iPhone') > -1 || u.indexOf('Windows Phone') > -1 || navigator.userAgent.indexOf("iPad") > -1) {
+            $(".hover-bg .hover-text").css({'opacity': '1'});
+
+            $(".hover-bg .hover-text>h4").css({
+                'opacity': '1',
+                '-webkit-transform': 'translateY(0)',
+                'transform': 'translateY(0)'
+            });
+
+            $(".hover-bg .hover-text>i").css({'opacity': '1'});
+        }
+
+    });
+
+</script>
+
+
+
+
+
+<EMBED src="/static/qishe/music/11.mp3" loop="infinite" width="0" height="0" ></embed>
+
+
+</body>
+</html>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5759e10-2ec1-4606-9797-cf43fd7c9822" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="dmsen0406lin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/lin/templates/hutProject/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret column="765" lean-forward="true" selection-start-column="765" selection-end-column="765" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Fore</find>
+      <find>get</find>
+      <find>hutNotice</find>
+      <find>null</find>
+      <find>blank</find>
+      <find>JsonResponse</find>
+      <find>user/modeTou</find>
+      <find>test_user_updata</find>
+      <find>time</find>
+      <find>flitter</find>
+      <find>query</find>
+      <find>queryset_to_json</find>
+      <find>toDict</find>
+      <find>filter</find>
+      <find>favicon.ico</find>
+      <find>favicon</find>
+      <find>befor</find>
+      <find>/static/</find>
+      <find>26d92c25</find>
+      <find>chunk-26d92c25.6dfe12d4</find>
+      <find>26d92c25.15f79b64.js</find>
+      <find>15f79b6</find>
+      <find>127.0</find>
+      <find>lin</find>
+      <find>lin.464b6a8e</find>
+      <find>chunk-5ed88f76.dcc91836.js</find>
+      <find>chunk-vendors.45696fb7</find>
+      <find>lin.464b6a8e.png</find>
+      <find>lin_max_log.9a12566f.png</find>
+      <find>baseUrl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>霖</replace>
+      <replace>/static/js/</replace>
+      <replace>./static/css</replace>
+      <replace>./static/js</replace>
+      <replace>/static/css</replace>
+      <replace>/static/js/lin</replace>
+      <replace>/static/css/lin</replace>
+      <replace>static/js/</replace>
+      <replace>/static/img/lin</replace>
+      <replace>/static/js/lin/</replace>
+      <replace>www.dmsen.cn</replace>
+      <replace>/static/lin/map/</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\dmseng\dmsen0406lin\static\js\lin</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/app01/models.py" />
+        <option value="$PROJECT_DIR$/apps/app01/hutProject/hutModel.py" />
+        <option value="$PROJECT_DIR$/apps/lin/templates/lin/index.html" />
+        <option value="$PROJECT_DIR$/apps/lin/templates/map/index.html" />
+        <option value="$PROJECT_DIR$/static/lin/map/js/app.4bd39be7.js" />
+        <option value="$PROJECT_DIR$/dmseng/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/apps/lin/urls.py" />
+        <option value="$PROJECT_DIR$/apps/lin/views.py" />
+        <option value="$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.92a30b9b.js" />
+        <option value="$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.1d6220d7.js" />
+        <option value="$PROJECT_DIR$/apps/app01/hutProject/hutViews.py" />
+        <option value="$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.a0331b58.js" />
+        <option value="$PROJECT_DIR$/apps/lin/templates/hutProject/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-40" />
+    <option name="y" value="100" />
+    <option name="width" value="1935" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectId" id="1Zvqu2vXpp7djGz3nnScevtS9mI" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="dmseng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="hutProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="hutProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ruanJianGongCheng" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dmsen0406lin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dmsen0406lin" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="lin" type="462c0819:PsiDirectoryNode" />
+              <item name="hutProject" type="462c0819:PsiDirectoryNode" />
+              <item name="ruanJianGongCheng" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\dmseng\dmsen0406lin\static\lin\hutProject\ruanJianGongCheng\img" />
+      <recent name="F:\dmseng\dmsen0406lin\media\hutUser" />
+      <recent name="F:\dmseng\dmsen0406lin\apps\lin\templates\lin" />
+      <recent name="F:\dmseng\dmsen0406lin\apps\app01\hut" />
+      <recent name="F:\dmseng\dmsen0406lin\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5759e10-2ec1-4606-9797-cf43fd7c9822" name="Default Changelist" comment="" />
+      <created>1554559378557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554559378557</updated>
+      <workItem from="1554895074541" duration="344000" />
+      <workItem from="1554896440516" duration="1956000" />
+      <workItem from="1554902244494" duration="4312000" />
+      <workItem from="1554969047632" duration="8078000" />
+      <workItem from="1554990125428" duration="4184000" />
+      <workItem from="1555057076959" duration="10036000" />
+      <workItem from="1555080253749" duration="667000" />
+      <workItem from="1555147511808" duration="15322000" />
+      <workItem from="1555167603822" duration="117000" />
+      <workItem from="1555238175291" duration="3146000" />
+      <workItem from="1555416023886" duration="8268000" />
+      <workItem from="1555427983332" duration="14000" />
+      <workItem from="1555501924734" duration="9722000" />
+      <workItem from="1555661490022" duration="15670000" />
+      <workItem from="1555759888081" duration="16209000" />
+      <workItem from="1555851546086" duration="9446000" />
+      <workItem from="1555907596939" duration="3579000" />
+      <workItem from="1555912598994" duration="3709000" />
+      <workItem from="1555926942106" duration="1706000" />
+      <workItem from="1555938273027" duration="928000" />
+      <workItem from="1556104650807" duration="14127000" />
+      <workItem from="1556165599158" duration="8125000" />
+      <workItem from="1556199046734" duration="606000" />
+      <workItem from="1556200049388" duration="8384000" />
+      <workItem from="1556280090784" duration="6294000" />
+      <workItem from="1556362120938" duration="8985000" />
+      <workItem from="1556373472618" duration="5632000" />
+      <workItem from="1556778244417" duration="1955000" />
+      <workItem from="1556780685870" duration="15856000" />
+      <workItem from="1557488282388" duration="1538000" />
+      <workItem from="1557490162072" duration="599000" />
+      <workItem from="1557492982705" duration="645000" />
+      <workItem from="1566196456686" duration="36000" />
+      <workItem from="1566196548186" duration="1783000" />
+      <workItem from="1566198367545" duration="1840000" />
+      <workItem from="1567069947597" duration="3361000" />
+      <workItem from="1567318331918" duration="2506000" />
+      <workItem from="1570804153732" duration="3000" />
+      <workItem from="1585730137049" duration="245000" />
+      <workItem from="1585730424937" duration="17000" />
+      <workItem from="1585730694805" duration="86000" />
+      <workItem from="1585730801858" duration="80000" />
+      <workItem from="1585731070524" duration="2491000" />
+      <workItem from="1585736315662" duration="304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24900925" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4993395" visible="true" weight="0.34846267" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5006605" side_tool="true" weight="0.284041" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585730231503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585730231503" />
+    <state x="549" y="144" key="FileChooserDialogImpl" timestamp="1585730880649">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="144" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585730880649" />
+    <state x="272" y="57" key="SettingsEditor" timestamp="1585731246277">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585731246277" />
+    <state x="649" y="305" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1585731092803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="649" y="305" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1585731092803" />
+    <state x="499" y="220" key="com.intellij.database.dbimport.ImportUtil.MyDialog" timestamp="1585734345123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="220" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1585734345123" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1585756968961">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585756968961" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/media/hutUser/2020/0401/9DC152B18E79AD097FC4AE3A2F8A7D6C.jpg" />
+    <entry file="file://$PROJECT_DIR$/media/hutUser/2020/0402/blob_55.png" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/templates/lin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret column="1111" lean-forward="true" selection-start-column="1111" selection-end-column="1111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/templates/map/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1003" selection-start-column="983" selection-end-column="1003" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/lin/app.ff3744e4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60670" selection-start-column="60650" selection-end-column="60670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/gerenweb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="216" column="4" selection-start-line="216" selection-start-column="4" selection-end-line="218" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/linBefore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/map/js/chunk-2d0aacc0.ebfa1c5a.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/map/js/chunk-2c359864.ba543a61.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-5ed88f76.dcc91836.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-74a7c6cf.82879121.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-74a86fbc.5f10dcce.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-744d0b17.d481fc0d.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-3385141a.77319b08.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-42318236.8e59fb89.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-ee4de168.5e404ab5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-61539592.516ec280.js" />
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-14b9857b.1b2d3f4d.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-vendors.45696fb7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret column="4314" selection-start-column="4314" selection-end-column="4314" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.92a30b9b.js" />
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-4a04cba8.6b52b812.js" />
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-2c359864.ba543a61.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/chunk-2b36e327.9dfc3a57.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2124">
+          <caret column="65328" lean-forward="true" selection-start-column="65328" selection-end-column="65328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/css/app.abac9c67.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.1d6220d7.js" />
+    <entry file="file://$PROJECT_DIR$/apps/lin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/hutProject/hutViews.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="289" column="31" selection-start-line="289" selection-start-column="31" selection-end-line="289" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="333" column="32" selection-start-line="333" selection-start-column="32" selection-end-line="333" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#20921#21945#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/app01/hutProject/hutModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1544">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dmseng/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="142" column="44" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/map/js/app.4bd39be7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="70376" selection-start-column="70356" selection-end-column="70376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lin/hutProject/ruanJianGongCheng/js/app.a0331b58.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="67858" selection-start-column="67858" selection-end-column="67858" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/lin/templates/hutProject/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret column="765" lean-forward="true" selection-start-column="765" selection-end-column="765" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

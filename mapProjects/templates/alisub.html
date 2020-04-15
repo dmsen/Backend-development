@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+
+    <meta name="data-spm" content="a2o2j">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/dan.ico">
+    <title>{%block title%}dmsen个人网站{%endblock%}</title>
+    <meta name="keywords" content="-dmsen个人网站"><meta name="description" content="-dmsen个人网站">
+    <!-- 为了让html5shiv生效，请将所有的CSS都添加到此处 -->
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="/static/alisub_files/jquery.css">
+
+    <link href="/static/alisub_files/oneplus.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/static/alisub_files/magnific-popup.css">
+    <link type="text/css" rel="stylesheet" href="/static/alisub_files/blog.css">
+
+    <!--合并前的js-->
+    <!-- Bootstrap库 -->
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/alisub_files/bootstrap.js"></script>
+    <!-- 其他库-->
+
+
+
+    <!--合并前的js-->
+</head>
+    <body>
+
+<div id="nav_bar" class="nav_bar" style="margin-bottom: 20px;">
+    <nav class="container" id="nav_bar_container" role="navigation">
+        <div class="col-md-9 collapse navbar-collapse col-sm-12 " id="nav_bar_main">
+
+            <ul class="nav navbar-nav col-sm-12" style="font-size: 16px">
+
+
+
+                                                <li class="">
+                            <a href="{% url 'projects' %}" target="_self" >首页</a>
+                        </li>
+                 {% for guid in guids %}
+                                                <li class="{% if current_tag_id|add:0 == guid.tag.id|add:0 %}active{% endif %}">
+                            <a href="{% url 'tag' guid.tag.id %}" target="_self" >{{ guid.guid_name }}</a>
+                        </li>
+{% endfor %}
+            <li class="">
+                            <a href="{% url 'index' %}" target="_self" >dmsen简历网站</a>
+                        </li>
+            <li class="">
+                            <a href="{% url 'gerenweb:index1' %}" target="_self" >dmsen首项目网站</a>
+                        </li>
+
+                                    </ul>
+
+        </div>
+        <!--导航栏菜单项-->
+
+        <div class="row visible-xs">
+
+            <div class="col-md-3 col-xs-9">
+                <div class="pull-right text-right">
+                    <form class="navbar-right" role="search" action="{% url 'search' %}" id="forum_search" method="get" style="margin: 8px 0">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input class="form-control" name="keywords" value=""id="keywords" placeholder="查找" type="text" >
+
+                                <div class="input-group-btn text-left">
+                                    <button type="button" class="submit_search btn btn-default dropdown-toggle" style="border-left: none;border-top-left-radius: 0;border-bottom-left-radius: 0" data-toggle="dropdown " onclick="search()"><span class="glyphicon glyphicon-search"></span>
+                                    </button>
+
+                                </div>
+
+                                <script>
+                                     function search() {
+                                  var tv = $("#keywords").val();
+                                  // tv.length == 0 : return false;
+                                  if(tv.length>0){
+                                    $('#forum_search').submit();
+                                  }
+                                }
+                                </script>
+                            </div>
+
+                        </div>
+           </form>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="col-md-3 col-xs-12 hidden-xs">
+            <div class="pull-right text-right">
+                <form class="navbar-form navbar-right" action="{% url 'search' %}" role="search" id="forum_search1" method="get">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input class="form-control" name="keywords" value="" id="keywords1" placeholder="查找" type="text">
+
+                            <div class="input-group-btn text-left">
+                                <button type="button" class="submit_search btn btn-default dropdown-toggle" style="border-left: none;border-top-left-radius: 0;border-bottom-left-radius: 0" data-toggle="dropdown"onclick="search1()"><span class="glyphicon glyphicon-search"></span>
+                                </button>
+
+                            </div>
+                            <script>
+                                   function search1() {
+                                  var tv = $("#keywords1").val();
+                                  // tv.length == 0 : return false;
+                                  if(tv.length>0){
+                                    $('#forum_search1').submit();
+                                  }
+                                }
+                            </script>
+                        </div>
+                    </div>
+                <input name="__hash__" value="9f95d73cafde719963b941564f532498_8960863f216fb7d31ddbc259f8ed6baf" type="hidden"></form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+        <div id="main-container" class="container" style="min-height: 288px;">
+            <div class="row">
+                <div class="container" style="min-height: 400px">
+                    <div class="row">
+                        
+    <div class="col-md-8">
+
+        <div class="common_block_border">
+
+            <div class="row circle_block_title">
+
+                <div class="col-md-8 col-sm-8 col-xs-8">
+                     {%block lefttop%}
+                    观点
+                        {%endblock%}
+                </div>
+
+            </div>
+
+            <div class="common_block_title">
+
+                Tag：<font color="#bc0000">{{ keywords }}</font> 相关找到{{tag_articles_number}}条</div>
+
+            <div style="padding:0 20px">
+
+               <section id="contents" >
+                        {%block content%}
+                    <div class="row" style="position: relative">
+
+                        <div class="col-md-4">
+
+                            <a title="报告 | 北大教授邱泽奇：农村电商，为什么是菏泽？" href="http://127.0.0.1:8000/detail/11.html" target="_blank"><img alt="报告 | 北大教授邱泽奇：农村电商，为什么是菏泽？" src="{%block leftimage%}/static/alisub_files/img_20170822_0003.jpg{%endblock%}" style="width: 200px;height: 146px"></a>
+                        </div>
+                        <div class="col-md-8 blog_detail" style="margin-left: -10px">
+                            <div>
+
+                                <h3 class="text-more media-heading" style="width: 100%">
+                                    {%block righttoptitle%}
+                                    <a title="报告 | 北大教授邱泽奇：农村电商，为什么是菏泽？" href="http://127.0.0.1:8000/detail/11.html" target="_blank">报告 | 北大教授邱泽奇：农村电商，为什么是菏泽？</a>
+                                   {%endblock%}
+                                </h3>
+                            </div>
+                            <div style="margin-top: 5px">
+                                {%block righttimecontent%}
+                                <span class="author">2018/03/25 4:12</span>
+
+                                <p class="detail">在外地习得了电商技能的年轻人回到菏泽开展电商创业，让电商的种子在菏泽生根发芽，在有产业基础的地区，迅速推动了产业的转型升级。</p>
+                                {%endblock%}
+                            </div>
+
+
+                            <div class="blog_tags" style="margin-top: 20px"></div>
+                            <div class="pull-right">
+                                <span><i class="glyphicon glyphicon-fire"></i>  11</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+
+
+                    <div class="row" style="position: relative">
+                        <div class="col-md-4">
+                            <a title="高红冰：新零售成为数字经济加速器" href="http://127.0.0.1:8000/detail/7.html" target="_blank"><img alt="高红冰：新零售成为数字经济加速器" src="/static/alisub_files/article_default_002.jpg" style="width: 200px;height: 146px"></a>
+                        </div>
+                        <div class="col-md-8 blog_detail" style="margin-left: -10px">
+                            <div>
+                                <h3 class="text-more media-heading" style="width: 100%">
+                                    <a title="高红冰：新零售成为数字经济加速器" href="http://127.0.0.1:8000/detail/7.html" target="_blank">高红冰：新零售成为数字经济加速器</a>
+                                </h3>
+                            </div>
+                            <div style="margin-top: 5px">
+                                <span class="author">2018/03/25 10:47</span>
+
+                                <p class="detail">中国的历朝历代中，我最喜欢的是宋朝，因为宋朝时候的人才都是这种跨学科的人才。他是学者，又是画家、诗人、政治家集于一身的全才，这是典型的宋朝文官，所以我经常和我的朋友开玩笑，中国早在1000年前，就明白了“T型人才”的重要。</p>
+                            </div>
+                            <div class="blog_tags" style="margin-top: 20px"></div>
+                            <div class="pull-right">
+                                <span><i class="glyphicon glyphicon-fire"></i>  3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                   {%endblock%}
+                </section>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+                      {%include 'sub_right.html'%}
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="padding: 5px"></div>
+
+
+
+
+
+
+    
+</body></html>

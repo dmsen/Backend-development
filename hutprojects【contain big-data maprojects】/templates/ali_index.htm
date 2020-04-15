@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/ali_index_files/css/style.css">
+ <link href="/static/ali_index_files/css/bootstrap.min.css" rel="stylesheet">
+<script src="/static/ali_index_files/js/jquery.min.js"></script>
+<script src="/static/ali_index_files/js/script.js"></script>
+    <link href="/static/alisub_files/oneplus.css" rel="stylesheet">
+    <meta name="data-spm" content="a2o2j">
+    <title>首页-dmsen项目</title>
+    
+    <meta name="keywords" content="">
+    <meta name="description" content=",dmsen个人网站">
+    {#        <link rel="shortcut icon" type="image/x-icon" href="http://i.aliresearch.com/logo/arc.ico">#}
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/dan.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/ali_index_files/style.css">
+
+
+    <script type="text/javascript" src="/static/ali_index_files/jquery-3.3.1.min.js"></script>
+
+    <meta exparams="aplus&amp;sidx=aplusSidx&amp;workno=0&amp;uxdata=1">
+    <meta name="aplus-exinfo" content="workno=0">
+    <style>
+
+
+
+        #menu {
+
+    padding-left: 6px;
+    margin: 0px;
+    list-style-type: none;
+
+}
+#menu li {
+
+    float: left;
+    margin:0 4px;
+}
+#menu span {
+    color: yellow;
+	float:left;
+    padding-left:18px;
+    background:url(/static/gerenweb/images/menu1.gif) left top repeat-x;
+    transition: all .3s ease-in;
+}
+#menu li a {
+    padding-right: 18px;
+    float: left;
+    height: 35px;
+    color: yellow;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    background:url(/static/gerenweb/images/menu1.gif) right top repeat-x;
+    transition: all .3s ease-in;
+}
+#menu a:hover {
+    color: #ffffff;
+    background-position:right bottom;
+}
+.test1 table tr #tr1 {
+	position: absolute;
+	top:40px;
+	left:0px;
+
+}
+#menu a:hover span {
+    background-position:left bottom;
+    cursor:pointer;
+    cursor:hand;
+}
+
+
+    </style>
+</head>
+
+<body class="blog-body">
+
+
+
+
+
+
+
+
+{#   网址标识 #}
+{#<i class="iconfont ali"style="margin-top:0px;margin-left:180px;float: left; display: block;width:200px;height:70px;"><img src="/static/ali_index_files/pic2.png"></i>#}
+
+<!-- pc 导航 -->
+
+<div id="apDiv3" style="position: absolute; left: 193px; top: 9px; width: 1086px;  z-index: 3; vertical-align: middle;margin-top: 0px;margin-left: -0px;"><ul id="menu">
+	<li><a href="{% url 'projects'%}" title="首页"><span >首页</span></a></li>
+    <li><a href="{% url 'index' %}" title="dmsen简历网站"><span>前往个人简历网站</span></a></li>
+   {% for guid in guids %}
+                                                <li>
+                                                    <a href="{% url 'tag' guid.tag.id %}" target="_self" ><span >{{ guid.guid_name }}</span></a>
+                        </li>
+{% endfor %}
+
+
+
+
+
+                    <form  role="search" action="{% url 'search' %}" id="forum_search" method="get" style="margin: 8px 0">
+                        <div >
+                            <div >
+                                <input class="form-control" name="keywords" value=""id="keywords" placeholder="查找" type="text" style="width: 200px;">
+
+
+                                    <button type="button" class="submit_search btn btn-default dropdown-toggle" style="border-left: none;border-top-left-radius: 0;border-bottom-left-radius: 0;width: 60px;height: 25px;margin-left:5px;margin-top: 5px;padding: 0px" data-toggle="dropdown " onclick="search()"><span class="glyphicon glyphicon-search" style="background: inherit;color: #1EACDF;">搜索</span>
+                                    </button>
+
+
+
+                                <script>
+                                     function search() {
+                                  var tv = $("#keywords").val();
+                                  // tv.length == 0 : return false;
+                                  if(tv.length>0){
+                                    $('#forum_search').submit();
+                                  }
+                                }
+                                </script>
+                            </div>
+
+                        </div>
+           </form>
+
+
+
+</ul></div>
+
+
+
+
+
+<script type="text/javascript" src="/static/ali_index_files/easing.js"></script>
+<script type="text/javascript" src="/static/ali_index_files/index_002_002.js"></script>
+{#        <script src="/static/ali_index_files/echarts-plain.js"></script>#}
+<script src="https://cdn.bootcss.com/echarts/4.0.4/echarts.min.js"></script>
+<div class="container-main" style="margin-top: 40px;">
+
+    <div class="row-fluid">
+
+        <div class="w790 pull-left">
+            <ul class="top-advs">
+                <!-- 静态样式 -->
+
+                <li>
+                    <div class="top-advs-left">
+                        <a href="{% url 'index' %}">
+                            <!-- 图片宽98px 高78px -->
+                            <img src="/static/ali_index_files/img/pic2.jpg">
+                            <span>欢迎访问</span>
+                        </a>
+                    </div>
+                    <div class="top-advs-right">
+                        <h4><a  href="{% url 'index' %}">点击前往个人简历网站</a></h4>
+                        <span>个人简历网站制作时间为2018年暑期，相关技术：django、jquery、python3、linux、nginx等
+                                 <a target="_blank" href="{% url 'index' %}">[详细]</a>
+                                </span>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="top-advs-left">
+                        <a href="{% url 'gerenweb:index1' %}">
+                            <!-- 图片宽98px 高78px -->
+                            <img src="/static/ali_index_files/img/pic3.jpg">
+                            <span>欢迎访问</span>
+                        </a>
+                    </div>
+                    <div class="top-advs-right">
+                        <h4><a target="_blank" href="{% url 'gerenweb:index1' %}">点击前往个人网站(一)</a></h4>
+                        <span>个人网站(一)为大一下期利用html+css基础和2018年暑期由jquery、django等前后端结合制作
+                                 <a target="_blank" href="{% url 'gerenweb:index1' %}">[详细]</a>
+                                </span>
+                    </div>
+                </li>
+
+            </ul>
+            <!--slide-->
+            <!-- 新的轮播图宽580px 高290px -->
+
+            {#                    轮播  #}
+            <div class="slide-play slide tab_focus">
+                <ol class="slide-indicators">
+
+                    <li class="btn_nmb active" txt_id="0"></li>
+
+                    <li class="btn_nmb" txt_id="1"></li>
+
+                    <li class="btn_nmb" txt_id="2"></li>
+
+                    <!--li class="btn_nmb" txt_id="5"></li-->
+                </ol>
+                <div class="slide-inner tab_list" style="width: 2370px; left: 0px;">
+
+                    <div class="item  active  list_li">
+                        <a href="#" target="_blank">
+                            <img src="/static/ali_index_files/img/lunbo1.jpg" alt="dmsen个人网站(一)" width="580"
+                                 height="290">
+                        </a>
+                    </div>
+
+                    <div class="item  list_li">
+                        <a href="{% url 'projects' %}" target="_blank">
+                            <img src="/static/ali_index_files/img/lunbo2.jpg" alt="dmsen项目网站" width="580"
+                                 height="290">
+                        </a>
+                    </div>
+
+                    <div class="item  list_li">
+                        <a href="/" target="_blank">
+                            <img src="/static/ali_index_files/img/lunbo3.jpg" alt="dmsen个人简历网站" width="580"
+                                 height="290">
+                        </a>
+                    </div>
+
+
+                </div>
+
+                <div class="slide-control slide-font tab_list" style="width: 2370px; left: 0px;">
+
+                    <a href="#" target="_blank" class=" alinkhover font_li">
+                        <h3 class="h3">dmsen个人网站(一)</h3>
+                        <p>由大一下学期，学完html+css基础，即Dreamweaver软件制作而成的前端页面，后2018年暑假由django、jquery等前端技术稍作改良</p>
+                    </a>
+
+                    <a href="{% url 'projects' %}" target="_blank" class=" alinkhover font_li">
+                        <h3 class="h3">dmsen项目网站</h3>
+                        <p>dmsen项目网站，主要用来存放个人大学四年(目前大二)所做项目详情及源码。本网站由django，前端技术(jquery,bootstrap)，linux，nginx，gunicorn，echarts等技术制作而成</p>
+                    </a>
+
+                    <a href="/" target="_blank"
+                       class=" alinkhover font_li">
+                        <h3 class="h3">dmsen个人简历网站</h3>
+                        <p>
+                           dmsen个人简历网站主要提供dmsen个人信息，所做项目等信息。网站建设利用技术：django和前端页面技术相结合，nginx，gunicorn等等</p>
+                    </a>
+
+                </div>
+            </div>
+            <!-- add more -->
+            <!--slide end-->
+
+
+        </div>
+
+
+        <div class="w380 pull-right">
+
+
+            <div class="top-notice">
+                <div class="top-notice-left">
+                    {% for foo in Gonggao %}
+
+                        <a target="_blank"
+                           href="{% url 'detail' foo.id %}">最新项目：{{ foo.article_title|truncatechars:'22' }}</a>
+                        <!-- add more -->{% endfor %}
+                </div>
+                <div class="top-notice-right">
+                    <span>最新公告</span>
+                </div>
+            </div>
+
+
+            <div class="index-header-aspi index-menu-background">
+
+                <!-- add more -->
+
+                <div id="main" style="width: 380px; height: 300px; -moz-user-select: none;"
+                     _echarts_instance_="ec_1532416199070">
+                    <div style="position: relative; overflow: hidden; width: 300px; height: 200px; padding: 0px; margin: 0px; border-width: 0px; cursor: default;"></div>
+                </div>
+
+                <script type="text/javascript">
+                    var myChart = echarts.init(document.getElementById('main'));
+                    // 不可以
+                    //        $.get('http://echarts.baidu.com/examples/data/asset/data/aqi-beijing.json', function (data) {
+                    // 可以
+
+                    //        $.get('http://127.0.0.1:8000/static/data/aqi-beijing.json', function (data) {
+                    //        这里是吧数据从官网的json里面下载下来 否则会出现跨域问题
+
+                    $.get('/static/ali_index_files/changsha.json', function (data) {
+                        myChart.setOption(option = {
+                            title: {
+                                text: 'ChangSha AQI'
+                            },
+                            tooltip: {
+                                trigger: 'axis'
+                            },
+                            xAxis: {
+                                data: data.map(function (item) {
+                                    return item[0];
+                                })
+                            },
+                            yAxis: {
+                                splitLine: {
+                                    show: false
+                                }
+                            },
+                            toolbox: {
+                                left: 'center',
+                                feature: {
+                                    dataZoom: {
+                                        yAxisIndex: 'none'
+                                    },
+                                    restore: {},
+                                    saveAsImage: {}
+                                }
+                            },
+                            dataZoom: [{
+                                startValue: '2018-01-01'
+                            }, {
+                                type: 'inside'
+                            }],
+                            visualMap: {
+                                top: 10,
+                                right: 10,
+                                pieces: [{
+                                    gt: 0,
+                                    lte: 50,
+                                    color: '#096'
+                                }, {
+                                    gt: 50,
+                                    lte: 100,
+                                    color: '#ffde33'
+                                }, {
+                                    gt: 100,
+                                    lte: 150,
+                                    color: '#ff9933'
+                                }, {
+                                    gt: 150,
+                                    lte: 200,
+                                    color: '#cc0033'
+                                }, {
+                                    gt: 200,
+                                    lte: 300,
+                                    color: '#660099'
+                                }, {
+                                    gt: 300,
+                                    color: '#7e0023'
+                                }],
+                                outOfRange: {
+                                    color: '#999'
+                                }
+                            },
+                            series: {
+                                name: 'ChangSha AQI',
+                                type: 'line',
+                                data: data.map(function (item) {
+                                    return item[1];
+                                }),
+                                markLine: {
+                                    silent: true,
+                                    data: [{
+                                        yAxis: 50
+                                    }, {
+                                        yAxis: 100
+                                    }, {
+                                        yAxis: 150
+                                    }, {
+                                        yAxis: 200
+                                    }, {
+                                        yAxis: 300
+                                    }]
+                                }
+                            }
+                        });
+                    });
+                </script>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="row-fluid">
+        <div class="w790 pull-left">
+            <!--热文-->
+            <div class="j-hotspotWrap index-menu-background">
+                <div class="index-menu-title index-header-hotspot-title"></div>
+                <div class="j-line2"></div>
+
+
+                <div class="j-hotspotBd j-hotspotBd-two hotspot-box" style="height:1250px">
+                    <div class="j-hotspot-list" style="background-color: white">
+                        {% block content %}
+
+
+                            <div class="j-hotspot">
+
+                                <div class="clearfix mb30">
+                                    <div class="j-hotspotPic">
+                                        <a target="_blank" href="http://127.0.0.1:8000/detail/9.html"><img
+                                                src="/static/ali_index_files/article_default.jpg" width="202"
+                                                height="152"></a>
+                                    </div>
+                                    <div class="j-hotspotInfo">
+                                        <h3 class="h3">
+                                            <a style="color: rgb(21, 21, 21);" target="_blank"
+                                               href="http://127.0.0.1:8000/detail/9.html" class="a-title">dmsen个人网站院发布2018年阿里活水计划</a>
+                                        </h3>
+                                        <p class="j-hotspotA mb20">
+                                            <a style="color: rgb(102, 102, 102);" target="_blank"
+                                               href="http://127.0.0.1:8000/detail/9.html">阿里活水计划旨在搭建“实践者+研究者”在线对接平台，发掘阿里生态案例和数据的价值，支持优秀青年学者成长，提升中国数字经济研究水平。2018年阿里活水计划以“开放、连接、担当”为主题，聚焦数字经济和普惠发展。
+                                                <em style="background-position: 0px -112px;"></em>
+                                            </a>
+                                        </p>
+                                        <p class="j-hotspotLink">
+
+
+                                            <a target="_blank" href="http://127.0.0.1:8000/tag/7.html">资讯</a>
+
+                                            <a target="_blank" href="http://127.0.0.1:8000/tag/8.html">活水计划</a>
+
+                                            <a target="_blank" href="http://127.0.0.1:8000/tag/9.html">dmsen个人网站院</a>
+
+                                            <a target="_blank" href="http://127.0.0.1:8000/tag/10.html">数字经济</a>
+
+                                        </p>
+                                        <div class="j-hotspot-time">
+                                            <span>2018/03/25 2:20</span>
+                                        </div>
+                                        <div class="j-hotspot-comment">
+                                            <span>阅读(27)</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        {% endblock %}
+                    </div>
+
+
+                </div>
+                <a href="javascript:;" class="btn-corre btn-corre-down toDown2"></a>
+            </div>
+
+
+        </div>
+
+
+        <div class="w380 pull-right">
+
+            <div class="common_block_border blog_position">
+                <div class="common_block_title_right">
+                    推荐(By随机)
+                </div>
+
+                <div class="clearfix" style="position: relative">
+                    <div class="col-md-4">
+                        <a title="{{ Tuijian.article_title }}" href="{% url 'detail' Tuijian.id %}">
+                            <img alt="{{ Tuijian.article_title }}" src="/media/{{ Tuijian.article_cover_sm }}"
+                                 style="width: 100px;height: 70px">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            <h3 class="text-more" style="width: 100%">
+                                <a title="{{ Tuijian.article_title }}" href="{% url 'detail' Tuijian.id %}">
+                                    {{ Tuijian.article_title }}</a>
+                            </h3>
+                        </div>
+                        <div>
+                            <span class="author">{{ Tuijian.publish_date|date:"Y/m/d/ G:i" }}</span>
+                        </div>
+                        <div>
+                        </div>
+                    </div>
+                    <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                             <span>
+                                                <i class="glyphicon glyphicon-fire"></i>
+                                                 {{ Tuijian.view_times }}
+                                             </span>
+                                         </span>
+                </div>
+                <div style="margin: 15px"></div>
+
+            </div>
+
+            <div class="common_block_border blog_position">
+                <div class="common_block_title_right">最近更新(By时间)</div>
+
+                {% for item in Zuijin %}
+                    <div class="clearfix" style="position: relative">
+                        <div class="col-md-4">
+
+                            <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">
+                                <img alt="{{ item.article_title }}" src="/media/{{ item.article_cover_sm }}"
+                                     style="width: 100px;height: 70px"></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <h3 class="text-more" style="width: 100%">
+                                    <a title="{{ item.article_title }}"
+                                       href="{% url 'detail' item.id %}">{{ item.article_title }}</a>
+                                </h3>
+                            </div>
+                            <div>
+                                <span class="author">{{ item.publish_date|date:"Y/m/d/ G:i" }}</span>
+                            </div>
+                        </div>
+
+                        <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                              <span>
+                                                <i class="glyphicon glyphicon-fire"></i>{{ item.view_times }}
+                                              </span>
+                                         </span>
+                    </div>
+
+                    <div style="border-bottom: 1px dashed rgb(204, 204, 204);margin: 15px"></div>
+                {% endfor %}
+
+
+            </div>
+
+
+            <div class="common_block_border blog_position">
+                <div class="common_block_title_right">项目热门(By浏览次数)</div>
+
+                {% for item in Allremen %}
+                    <div class="clearfix" style="position: relative">
+                        <div class="col-md-4">
+
+                            <a title="{{ item.article_title }}" href="{% url 'detail' item.id %}">
+                                <img alt="{{ item.article_title }}" src="/media/{{ item.article_cover_sm }}"
+                                     style="width: 100px;height: 70px"></a>
+                        </div>
+                        <div class="col-md-8">
+                            <div>
+                                <h3 class="text-more" style="width: 100%">
+                                    <a title="{{ item.article_title }}"
+                                       href="{% url 'detail' item.id %}">{{ item.article_title }}</a>
+                                </h3>
+                            </div>
+                            <div>
+                                <span class="author">{{ item.publish_date|date:"Y/m/d/ G:i" }}</span>
+                            </div>
+                        </div>
+
+                        <span class="pull-right" style="position: absolute;right: 8px;bottom: 0">
+                                              <span>
+                                                <i class="glyphicon glyphicon-fire"></i>{{ item.view_times }}
+                                              </span>
+                                         </span>
+                    </div>
+
+                    <div style="border-bottom: 1px dashed rgb(204, 204, 204);margin: 15px"></div>
+                {% endfor %}
+
+
+            </div>
+
+
+            <div class="common_block_border">
+                <div class="common_block_title_right">
+                    热门标签(浏览次数)
+                </div>
+                <div>
+                    <div class="blog_tags" style="padding: 15px;padding-top: 0">
+                        {% for foo in Renmentag %}
+
+
+                            {#实现的方法有点傻乎乎，热门标签#}
+                            {% for item in foo %}
+
+                                {% if forloop.first %}
+                                {% elif forloop.last %}
+                                {% else %}
+
+
+
+                                    <a href="javascript:" onclick="location.href='
+                                            {% for item in foo %}{% if  forloop.last %} {% url 'tag' item %}{% endif %}{% endfor %}'">
+
+
+
+
+
+                                    {{ item }}
+                                {% endif %}
+
+                            </a>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <div class="row-fluid">
+        <div class="j-line2"></div>
+
+
+        <!--main-bd en-->
+    </div>
+    <span id="body_name" value="index"></span>
+    <!--全局底部-->
+
+    <!-- 底部================================== -->
+
+{% include 'bottom.html' %}
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

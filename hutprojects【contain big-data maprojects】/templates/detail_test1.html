@@ -1,0 +1,42 @@
+{%extends 'ali_detail.html'%}
+
+
+
+{#以下为左边可变区域#}
+{%block title%}
+Detail测试页面一
+{%endblock%}
+
+ {%block lefttoptitle%}
+{{ Article.article_title }}
+{%endblock%}
+
+{%block classfiy%}
+{{ Article.article_information_classification }}
+{%endblock%}
+
+{%block time%}
+{{ Article.publish_date|date:"Y/m/d/ G:i" }}
+{%endblock%}
+
+{%block view_times%}
+{{ Article.view_times }}
+{%endblock%}
+
+{%block image%}
+/media/{{ Article.article_cover }}
+{%endblock%}
+
+{%block leftcontent%}
+{{ Article.article_content|safe }}
+
+{%endblock%}
+
+{%block bottomtag%}
+ {% for tag in Article.article_tag.all %}
+     {{ tag }}
+    {% endfor %}
+{%endblock%}
+{#以上为可变区域#}
+
+

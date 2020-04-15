@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="db.sqlite3">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.17">
+    <root id="1">
+      <ServerVersion>3.25.1</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="main">
+      <Current>1</Current>
+    </schema>
+    <collation id="3" parent="1" name="BINARY"/>
+    <collation id="4" parent="1" name="NOCASE"/>
+    <collation id="5" parent="1" name="RTRIM"/>
+    <table id="6" parent="2" name="app01_article"/>
+    <table id="7" parent="2" name="app01_article_article_tag"/>
+    <table id="8" parent="2" name="app01_emailmsg"/>
+    <table id="9" parent="2" name="app01_guid"/>
+    <table id="10" parent="2" name="app01_informationclassification"/>
+    <table id="11" parent="2" name="app01_linkcategory"/>
+    <table id="12" parent="2" name="app01_notice"/>
+    <table id="13" parent="2" name="app01_tag"/>
+    <table id="14" parent="2" name="auth_group"/>
+    <table id="15" parent="2" name="auth_group_permissions"/>
+    <table id="16" parent="2" name="auth_permission"/>
+    <table id="17" parent="2" name="auth_user"/>
+    <table id="18" parent="2" name="auth_user_groups"/>
+    <table id="19" parent="2" name="auth_user_user_permissions"/>
+    <table id="20" parent="2" name="django_admin_log"/>
+    <table id="21" parent="2" name="django_content_type"/>
+    <table id="22" parent="2" name="django_migrations"/>
+    <table id="23" parent="2" name="django_session"/>
+    <table id="24" parent="2" name="sqlite_master">
+      <System>1</System>
+    </table>
+    <table id="25" parent="2" name="sqlite_sequence">
+      <System>1</System>
+    </table>
+    <table id="26" parent="2" name="单个异常记录"/>
+    <table id="27" parent="2" name="客户"/>
+    <table id="28" parent="2" name="异常处理历史"/>
+    <table id="29" parent="2" name="异常码"/>
+    <table id="30" parent="2" name="所有机器监测点"/>
+    <table id="31" parent="2" name="所有监测点"/>
+    <table id="32" parent="2" name="所有网关"/>
+    <table id="33" parent="2" name="所有网关_IOPNames"/>
+    <table id="34" parent="2" name="机器类型"/>
+    <table id="35" parent="2" name="用户"/>
+    <table id="36" parent="2" name="解决方案"/>
+    <table id="37" parent="2" name="设备"/>
+    <column id="38" parent="6" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="39" parent="6" name="article_title">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="40" parent="6" name="article_cover">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="41" parent="6" name="article_abstract">
+      <Position>4</Position>
+      <DataType>varchar(128)|0s</DataType>
+    </column>
+    <column id="42" parent="6" name="article_content">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="6" name="publish_date">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="6" name="view_times">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="6" name="is_notice">
+      <Position>8</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="6" name="is_case">
+      <Position>9</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="6" name="is_business_evaluation">
+      <Position>10</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="48" parent="6" name="is_recommend">
+      <Position>11</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="49" parent="6" name="article_information_classification_id">
+      <Position>12</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="6" name="article_cover_sm">
+      <Position>13</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="51" parent="6" name="app01_article_article_information_classification_id_378d6fe3">
+      <ColNames>article_information_classification_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="52" parent="6">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="53" parent="6">
+      <ColNames>article_information_classification_id</ColNames>
+      <RefTableName>app01_informationclassification</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="54" parent="7" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="55" parent="7" name="article_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="7" name="tag_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="57" parent="7" name="app01_article_article_tag_article_id_tag_id_4909c534_uniq">
+      <ColNames>article_id
+tag_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="58" parent="7" name="app01_article_article_tag_article_id_4539f7f1">
+      <ColNames>article_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="59" parent="7" name="app01_article_article_tag_tag_id_de3bd2df">
+      <ColNames>tag_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="60" parent="7">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="61" parent="7">
+      <ColNames>article_id</ColNames>
+      <RefTableName>app01_article</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="62" parent="7">
+      <ColNames>tag_id</ColNames>
+      <RefTableName>app01_tag</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="63" parent="8" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="64" parent="8" name="username">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="8" name="email">
+      <Position>3</Position>
+      <DataType>varchar(26)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="8" name="message">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="67" parent="8">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="68" parent="9" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="69" parent="9" name="guid_name">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="9" name="guid_enable">
+      <Position>3</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="71" parent="9" name="tag_id">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="72" parent="9" name="app01_guid_tag_id_19197b68">
+      <ColNames>tag_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="73" parent="9">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="74" parent="9">
+      <ColNames>tag_id</ColNames>
+      <RefTableName>app01_tag</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="75" parent="10" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="76" parent="10" name="info_name_cn">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="10" name="info_name_en">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="78" parent="10">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="11" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="80" parent="11" name="link_category_name_en">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="11" name="link_category_name_cn">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="82" parent="11">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="12" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="84" parent="12" name="title">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="12" name="abstract">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="12" name="article_content">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="12" name="publish_date">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="88" parent="12">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="89" parent="13" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="90" parent="13" name="tag_name_en">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="91" parent="13" name="tag_name_cn">
+      <Position>3</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="92" parent="13">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="93" parent="14" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="94" parent="14" name="name">
+      <Position>2</Position>
+      <DataType>varchar(80)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="95" parent="14" name="sqlite_autoindex_auth_group_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="96" parent="14">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="97" parent="14">
+      <ColNames>name</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_auth_group_1</UnderlyingIndexName>
+    </key>
+    <column id="98" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="99" parent="15" name="group_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="100" parent="15" name="permission_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="101" parent="15" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+      <ColNames>group_id
+permission_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="102" parent="15" name="auth_group_permissions_group_id_b120cbf9">
+      <ColNames>group_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="103" parent="15" name="auth_group_permissions_permission_id_84c5c92e">
+      <ColNames>permission_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="104" parent="15">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="105" parent="15">
+      <ColNames>group_id</ColNames>
+      <RefTableName>auth_group</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="106" parent="15">
+      <ColNames>permission_id</ColNames>
+      <RefTableName>auth_permission</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="107" parent="16" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="108" parent="16" name="content_type_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="16" name="codename">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="16" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="111" parent="16" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+      <ColNames>content_type_id
+codename</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="112" parent="16" name="auth_permission_content_type_id_2f476e4b">
+      <ColNames>content_type_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="113" parent="16">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="114" parent="16">
+      <ColNames>content_type_id</ColNames>
+      <RefTableName>django_content_type</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="115" parent="17" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="116" parent="17" name="password">
+      <Position>2</Position>
+      <DataType>varchar(128)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="117" parent="17" name="last_login">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="118" parent="17" name="is_superuser">
+      <Position>4</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="17" name="first_name">
+      <Position>5</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="120" parent="17" name="last_name">
+      <Position>6</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="121" parent="17" name="email">
+      <Position>7</Position>
+      <DataType>varchar(254)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="17" name="is_staff">
+      <Position>8</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="17" name="is_active">
+      <Position>9</Position>
+      <DataType>bool|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="124" parent="17" name="date_joined">
+      <Position>10</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="17" name="username">
+      <Position>11</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="126" parent="17" name="sqlite_autoindex_auth_user_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="127" parent="17">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="128" parent="17">
+      <ColNames>username</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_auth_user_1</UnderlyingIndexName>
+    </key>
+    <column id="129" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="130" parent="18" name="user_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="131" parent="18" name="group_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="132" parent="18" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+      <ColNames>user_id
+group_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="133" parent="18" name="auth_user_groups_user_id_6a12ed8b">
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="134" parent="18" name="auth_user_groups_group_id_97559544">
+      <ColNames>group_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="135" parent="18">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="136" parent="18">
+      <ColNames>user_id</ColNames>
+      <RefTableName>auth_user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="137" parent="18">
+      <ColNames>group_id</ColNames>
+      <RefTableName>auth_group</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="138" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="139" parent="19" name="user_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="19" name="permission_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="141" parent="19" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+      <ColNames>user_id
+permission_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="142" parent="19" name="auth_user_user_permissions_user_id_a95ead1b">
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="143" parent="19" name="auth_user_user_permissions_permission_id_1fbb5f2c">
+      <ColNames>permission_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="144" parent="19">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="145" parent="19">
+      <ColNames>user_id</ColNames>
+      <RefTableName>auth_user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="146" parent="19">
+      <ColNames>permission_id</ColNames>
+      <RefTableName>auth_permission</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="147" parent="20" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="148" parent="20" name="object_id">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="149" parent="20" name="object_repr">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="20" name="action_flag">
+      <Position>4</Position>
+      <DataType>smallint unsigned|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="20" name="change_message">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="20" name="content_type_id">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="153" parent="20" name="user_id">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="20" name="action_time">
+      <Position>8</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="155" parent="20" name="django_admin_log_content_type_id_c4bce8eb">
+      <ColNames>content_type_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="156" parent="20" name="django_admin_log_user_id_c564eba6">
+      <ColNames>user_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="157" parent="20">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="158" parent="20">
+      <ColNames>content_type_id</ColNames>
+      <RefTableName>django_content_type</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="159" parent="20">
+      <ColNames>user_id</ColNames>
+      <RefTableName>auth_user</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="160" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="161" parent="21" name="app_label">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="162" parent="21" name="model">
+      <Position>3</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="163" parent="21" name="django_content_type_app_label_model_76bd3d3b_uniq">
+      <ColNames>app_label
+model</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="164" parent="21">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="165" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="166" parent="22" name="app">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="167" parent="22" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="168" parent="22" name="applied">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="169" parent="22">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="170" parent="23" name="session_key">
+      <Position>1</Position>
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="171" parent="23" name="session_data">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="172" parent="23" name="expire_date">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="173" parent="23" name="sqlite_autoindex_django_session_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>session_key</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="174" parent="23" name="django_session_expire_date_a5c62663">
+      <ColNames>expire_date</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="175" parent="23">
+      <ColNames>session_key</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_django_session_1</UnderlyingIndexName>
+    </key>
+    <column id="176" parent="24" name="type">
+      <Position>1</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="177" parent="24" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="178" parent="24" name="tbl_name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="179" parent="24" name="rootpage">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="180" parent="24" name="sql">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="181" parent="25" name="name">
+      <Position>1</Position>
+    </column>
+    <column id="182" parent="25" name="seq">
+      <Position>2</Position>
+    </column>
+    <column id="183" parent="26" name="singleAlarmCodeId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="184" parent="26" name="startTime">
+      <Position>2</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="185" parent="26" name="duration">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="186" parent="26" name="singleAlarmCodeStatus">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="187" parent="26" name="alarmCodeName_id">
+      <Position>5</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="188" parent="26" name="machineName_id">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="189" parent="26" name="单个异常记录_alarmCodeName_id_74ffb967">
+      <ColNames>alarmCodeName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="190" parent="26" name="单个异常记录_machineName_id_62ec38cd">
+      <ColNames>machineName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="191" parent="26">
+      <ColNames>singleAlarmCodeId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="192" parent="26">
+      <ColNames>alarmCodeName_id</ColNames>
+      <RefTableName>异常码</RefTableName>
+      <RefColNames>alarmCodeId</RefColNames>
+    </foreign-key>
+    <foreign-key id="193" parent="26">
+      <ColNames>machineName_id</ColNames>
+      <RefTableName>设备</RefTableName>
+      <RefColNames>machineId</RefColNames>
+    </foreign-key>
+    <column id="194" parent="27" name="customerId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="195" parent="27" name="customerType">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="196" parent="27" name="customerLevel">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="197" parent="27" name="sponsor">
+      <Position>4</Position>
+      <DataType>varchar(6)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="27" name="phone">
+      <Position>5</Position>
+      <DataType>varchar(11)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="199" parent="27" name="address">
+      <Position>6</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="200" parent="27" name="machCount">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="201" parent="27" name="remark">
+      <Position>8</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="202" parent="27" name="customerName">
+      <Position>9</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="203" parent="27" name="sqlite_autoindex_客户_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>customerName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="204" parent="27">
+      <ColNames>customerId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="205" parent="27">
+      <ColNames>customerName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_客户_1</UnderlyingIndexName>
+    </key>
+    <column id="206" parent="28" name="alarmProcessHistoryId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="207" parent="28" name="alarmCode">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+    </column>
+    <column id="208" parent="28" name="alarmCodeName">
+      <Position>3</Position>
+      <DataType>varchar(16)|0s</DataType>
+    </column>
+    <column id="209" parent="28" name="alarmSolutonId">
+      <Position>4</Position>
+      <DataType>varchar(32)|0s</DataType>
+    </column>
+    <column id="210" parent="28" name="callbackMsg">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="211" parent="28" name="processTime">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="212" parent="28" name="machineName">
+      <Position>7</Position>
+      <DataType>varchar(16)|0s</DataType>
+    </column>
+    <key id="213" parent="28">
+      <ColNames>alarmProcessHistoryId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="214" parent="29" name="alarmCodeId">
+      <Position>1</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="215" parent="29" name="alarmCodeName">
+      <Position>2</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="216" parent="29" name="minValue">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="29" name="maxValue">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="218" parent="29" name="alarmMsg">
+      <Position>5</Position>
+      <DataType>varchar(36)|0s</DataType>
+    </column>
+    <column id="219" parent="29" name="level">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="220" parent="29" name="timeLimit">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="221" parent="29" name="physicalName_id">
+      <Position>8</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="222" parent="29" name="machineName_id">
+      <Position>9</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="223" parent="29" name="sqlite_autoindex_异常码_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>alarmCodeId</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="224" parent="29" name="异常码_physicalName_id_c667860e">
+      <ColNames>physicalName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="225" parent="29" name="异常码_machineName_id_b2190bf5">
+      <ColNames>machineName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="226" parent="29">
+      <ColNames>alarmCodeId</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>sqlite_autoindex_异常码_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="227" parent="29">
+      <ColNames>physicalName_id</ColNames>
+      <RefTableName>所有机器监测点</RefTableName>
+      <RefColNames>IOPointsId</RefColNames>
+    </foreign-key>
+    <foreign-key id="228" parent="29">
+      <ColNames>machineName_id</ColNames>
+      <RefTableName>设备</RefTableName>
+      <RefColNames>machineId</RefColNames>
+    </foreign-key>
+    <column id="229" parent="30" name="IOPointsId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="230" parent="30" name="minRange">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="231" parent="30" name="maxRange">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="232" parent="30" name="aline">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="233" parent="30" name="method">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="234" parent="30" name="machineGateway_id">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="235" parent="30" name="machineName_id">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="236" parent="30" name="physicalName">
+      <Position>8</Position>
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="237" parent="30" name="sqlite_autoindex_所有机器监测点_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>physicalName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="238" parent="30" name="所有机器监测点_machineGateway_id_cf3594ff">
+      <ColNames>machineGateway_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="239" parent="30" name="所有机器监测点_machineName_id_c86478c9">
+      <ColNames>machineName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="240" parent="30">
+      <ColNames>IOPointsId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="241" parent="30">
+      <ColNames>physicalName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_所有机器监测点_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="242" parent="30">
+      <ColNames>machineGateway_id</ColNames>
+      <RefTableName>所有网关</RefTableName>
+      <RefColNames>gatewayId</RefColNames>
+    </foreign-key>
+    <foreign-key id="243" parent="30">
+      <ColNames>machineName_id</ColNames>
+      <RefTableName>设备</RefTableName>
+      <RefColNames>machineId</RefColNames>
+    </foreign-key>
+    <column id="244" parent="31" name="IOPId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="245" parent="31" name="IOPName">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="246" parent="31" name="sqlite_autoindex_所有监测点_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>IOPName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="247" parent="31">
+      <ColNames>IOPId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="248" parent="31">
+      <ColNames>IOPName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_所有监测点_1</UnderlyingIndexName>
+    </key>
+    <column id="249" parent="32" name="gatewayId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="250" parent="32" name="gatewayName">
+      <Position>2</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="251" parent="32" name="sqlite_autoindex_所有网关_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>gatewayName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="252" parent="32">
+      <ColNames>gatewayId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="253" parent="32">
+      <ColNames>gatewayName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_所有网关_1</UnderlyingIndexName>
+    </key>
+    <column id="254" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="255" parent="33" name="gateways_all_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="256" parent="33" name="iopoints_all_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="257" parent="33" name="所有网关_IOPNames_gateways_all_id_iopoints_all_id_be793db6_uniq">
+      <ColNames>gateways_all_id
+iopoints_all_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="258" parent="33" name="所有网关_IOPNames_gateways_all_id_0d5482c7">
+      <ColNames>gateways_all_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="259" parent="33" name="所有网关_IOPNames_iopoints_all_id_f86c62be">
+      <ColNames>iopoints_all_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="260" parent="33">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="261" parent="33">
+      <ColNames>gateways_all_id</ColNames>
+      <RefTableName>所有网关</RefTableName>
+      <RefColNames>gatewayId</RefColNames>
+    </foreign-key>
+    <foreign-key id="262" parent="33">
+      <ColNames>iopoints_all_id</ColNames>
+      <RefTableName>所有监测点</RefTableName>
+      <RefColNames>IOPId</RefColNames>
+    </foreign-key>
+    <column id="263" parent="34" name="machTypeId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="264" parent="34" name="machTypeCode">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="265" parent="34" name="machTypeDesc">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="34" name="machTypeName">
+      <Position>4</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="267" parent="34" name="sqlite_autoindex_机器类型_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>machTypeName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="268" parent="34">
+      <ColNames>machTypeId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="269" parent="34">
+      <ColNames>machTypeName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_机器类型_1</UnderlyingIndexName>
+    </key>
+    <column id="270" parent="35" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="271" parent="35" name="userName">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="272" parent="35" name="password">
+      <Position>3</Position>
+      <DataType>varchar(30)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="273" parent="35" name="roles">
+      <Position>4</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="35" name="jurisdiction">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="275" parent="35" name="status">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="276" parent="35" name="remarks">
+      <Position>7</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="277" parent="35" name="userTou">
+      <Position>8</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="278" parent="35" name="sqlite_autoindex_用户_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>userName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="279" parent="35">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="280" parent="35">
+      <ColNames>userName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_用户_1</UnderlyingIndexName>
+    </key>
+    <column id="281" parent="36" name="alarmSolutonId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="282" parent="36" name="alarmSolutonDetail">
+      <Position>2</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="283" parent="36" name="alarmCodeList">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="284" parent="36" name="alarmSolutonName">
+      <Position>4</Position>
+      <DataType>varchar(32)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="285" parent="36" name="sqlite_autoindex_解决方案_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>alarmSolutonName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <key id="286" parent="36">
+      <ColNames>alarmSolutonId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="287" parent="36">
+      <ColNames>alarmSolutonName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_解决方案_1</UnderlyingIndexName>
+    </key>
+    <column id="288" parent="37" name="machineId">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="289" parent="37" name="machineDesc">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="290" parent="37" name="dataOfProdect">
+      <Position>3</Position>
+      <DataType>datetime|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="291" parent="37" name="office">
+      <Position>4</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="292" parent="37" name="mwordId">
+      <Position>5</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="293" parent="37" name="customerName_id">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="294" parent="37" name="machTypeId_id">
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="295" parent="37" name="machineName">
+      <Position>8</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="296" parent="37" name="sqlite_autoindex_设备_1">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>machineName</ColNames>
+      <ColumnCollations></ColumnCollations>
+      <Unique>1</Unique>
+    </index>
+    <index id="297" parent="37" name="设备_customerName_id_d40fe938">
+      <ColNames>customerName_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <index id="298" parent="37" name="设备_machTypeId_id_164f5d31">
+      <ColNames>machTypeId_id</ColNames>
+      <ColumnCollations></ColumnCollations>
+    </index>
+    <key id="299" parent="37">
+      <ColNames>machineId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="300" parent="37">
+      <ColNames>machineName</ColNames>
+      <UnderlyingIndexName>sqlite_autoindex_设备_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="301" parent="37">
+      <ColNames>customerName_id</ColNames>
+      <RefTableName>客户</RefTableName>
+      <RefColNames>customerId</RefColNames>
+    </foreign-key>
+    <foreign-key id="302" parent="37">
+      <ColNames>machTypeId_id</ColNames>
+      <RefTableName>机器类型</RefTableName>
+      <RefColNames>machTypeId</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

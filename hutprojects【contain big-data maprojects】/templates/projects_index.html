@@ -1,0 +1,66 @@
+{% extends 'ali_index.htm' %}
+
+
+
+
+
+
+
+
+{% block content %}
+
+    {#    <h1>hello</h1>#}
+    <div class="j-hotspot">
+        {% for item in article_title %}
+            <div class="clearfix mb30">
+
+
+                <div class="j-hotspotPic">
+                    <a target="_blank" href="/detail/{{ item.id }}"><img
+                            src="/media/{{ item.article_cover_sm }}" width="202" height="152"></a>
+                </div>
+
+                <div class="j-hotspotInfo">
+                    <h3 class="h3">
+
+                        <a style="color: rgb(21, 21, 21);" target="_blank" href="/detail/{{ item.id }}"
+                           class="a-title"> {{ item.article_title }} </a>
+{#{% url 'detail'  item.id  %}#}
+                    </h3>
+
+                    <p class="j-hotspotA mb20">
+                        <a style="color: rgb(102, 102, 102);" target="_blank"
+                           href="/detail/{{ item.id }}">{{ item.article_abstract }}
+
+
+                            <em style="background-position: 0px -112px;"></em>
+                        </a>
+                    </p>
+                    <p class="j-hotspotLink">
+
+
+                        {% for tag in item.article_tag.all %}
+                            {#只能使用.all方法来迭代多对多关系#}
+
+
+                            <a target="_blank" href="{% url 'tag' tag.id %}">{{ tag }}</a>
+                        {% endfor %}
+
+
+                    </p>
+                    <div class="j-hotspot-time">
+                        <span>{{ item.publish_date|date:"Y/m/d/ G:i" }}</span>
+                    </div>
+                    <div class="j-hotspot-comment">
+                        <span>阅读{{ item.view_times }}</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        {% endfor %}
+    </div>
+
+
+{% endblock %}
